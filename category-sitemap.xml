@@ -7,19 +7,10 @@
     </url>
 
     <url>
-        <loc>https://alexandertolstoy.github.io/2016/09/21/hello-world/</loc>
-        <lastmod>2016-09-24T00:13:57.321Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://alexandertolstoy.github.io/2016/09/23/%E5%9C%B0%E5%9D%80%E5%82%A8%E5%AD%98%E4%B8%8E%E8%A7%A3%E6%9E%90/</loc>
+        <loc>https://alexandertolstoy.github.io/categories/Work/</loc>
         <lastmod>2016-09-24T00:13:45.162Z</lastmod>
         <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
+        <priority>0.2</priority>
     </url>
 
 </urlset>

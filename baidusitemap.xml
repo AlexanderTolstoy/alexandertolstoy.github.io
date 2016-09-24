@@ -4,8 +4,27 @@
 
     
   <url>
+    <loc>https://alexandertolstoy.github.io/2016/09/21/hello-world/</loc>
+    <lastmod>2016-09-24T00:13:57.321Z</lastmod>
+    <data>
+        <display>
+        <title>Hello World</title>
+        <pubTime>2016-09-21T11:14:16.868Z</pubTime>
+        
+        <tag>Hello World</tag>
+         
+        <tag>Init</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://alexandertolstoy.github.io/2016/09/23/%E5%9C%B0%E5%9D%80%E5%82%A8%E5%AD%98%E4%B8%8E%E8%A7%A3%E6%9E%90/</loc>
-    <lastmod>2016-09-24T00:11:19.326Z</lastmod>
+    <lastmod>2016-09-24T00:13:45.162Z</lastmod>
     <data>
         <display>
         <title>地址储存与解析</title>
@@ -19,25 +38,9 @@
          
          
            
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://alexandertolstoy.github.io/2016/09/21/hello-world/</loc>
-    <lastmod>2016-09-24T00:07:30.631Z</lastmod>
-    <data>
-        <display>
-        <title>Hello World</title>
-        <pubTime>2016-09-21T11:14:16.868Z</pubTime>
-        
-        <tag>Hello World</tag>
-         
-        <tag>Init</tag>
-         
-         
-           
+             
+              <breadCrumb title="Work" url="https://alexandertolstoy.github.io/categories/Work/"/>
+          
         </display>
     </data>
     </url>
