@@ -2,18 +2,18 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <sitemap>
-        <loc>http://yoursite.com/post-sitemap.xml</loc>
-        <lastmod>2016-09-23T14:25:31.348Z</lastmod>
+        <loc>https://alexandertolstoy.github.io/post-sitemap.xml</loc>
+        <lastmod>2016-09-24T00:11:19.326Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>http://yoursite.com/page-sitemap.xml</loc>
+        <loc>https://alexandertolstoy.github.io/page-sitemap.xml</loc>
         <lastmod>2016-09-23T12:01:09.393Z</lastmod>
     </sitemap>
 
     <sitemap>
-        <loc>http://yoursite.com/tag-sitemap.xml</loc>
-        <lastmod>2016-09-23T14:21:05.466Z</lastmod>
+        <loc>https://alexandertolstoy.github.io/tag-sitemap.xml</loc>
+        <lastmod>2016-09-24T00:07:30.631Z</lastmod>
     </sitemap>
 
 </sitemapindex>

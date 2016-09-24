@@ -4,9 +4,9 @@
   <subtitle>君子以言有物而行有恒</subtitle>
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
-  <updated>2016-09-23T14:25:31.348Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="https://alexandertolstoy.github.io/"/>
+  <updated>2016-09-24T00:11:19.326Z</updated>
+  <id>https://alexandertolstoy.github.io/</id>
   
   <author>
     <name>屈子虚</name>
@@ -17,10 +17,10 @@
   
   <entry>
     <title>地址储存与解析</title>
-    <link href="http://yoursite.com/2016/09/23/%E5%9C%B0%E5%9D%80%E5%82%A8%E5%AD%98%E4%B8%8E%E8%A7%A3%E6%9E%90/"/>
-    <id>http://yoursite.com/2016/09/23/地址储存与解析/</id>
+    <link href="https://alexandertolstoy.github.io/2016/09/23/%E5%9C%B0%E5%9D%80%E5%82%A8%E5%AD%98%E4%B8%8E%E8%A7%A3%E6%9E%90/"/>
+    <id>https://alexandertolstoy.github.io/2016/09/23/地址储存与解析/</id>
     <published>2016-09-23T12:51:50.081Z</published>
-    <updated>2016-09-23T14:25:31.348Z</updated>
+    <updated>2016-09-24T00:11:19.326Z</updated>
     
     <content type="html"><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>由数据源汇总过来的各种地址数据需要规范格式,统一并解析实际指代地理位置.由于政府人口信息中,地址采集既有常用的地址汉字字符串如:’浙江省杭州市’,又有为了统计分析方便储存的地址编码如邮政编码:721300,如行政区划330100.这为我们理解数据提取有效地址信息提出了严峻的考验  </p>
 <h2 id="整体解决方案简述"><a href="#整体解决方案简述" class="headerlink" title="整体解决方案简述"></a>整体解决方案简述</h2><h3 id="储存"><a href="#储存" class="headerlink" title="储存"></a>储存</h3><table>
@@ -88,16 +88,20 @@
     </summary>
     
     
-      <category term="jdbc Collection 行政区划编码" scheme="http://yoursite.com/tags/jdbc-Collection-%E8%A1%8C%E6%94%BF%E5%8C%BA%E5%88%92%E7%BC%96%E7%A0%81/"/>
+      <category term="Java" scheme="https://alexandertolstoy.github.io/tags/Java/"/>
+    
+      <category term="行政区划编码及地址" scheme="https://alexandertolstoy.github.io/tags/%E8%A1%8C%E6%94%BF%E5%8C%BA%E5%88%92%E7%BC%96%E7%A0%81%E5%8F%8A%E5%9C%B0%E5%9D%80/"/>
+    
+      <category term="sql" scheme="https://alexandertolstoy.github.io/tags/sql/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2016/09/21/hello-world/"/>
-    <id>http://yoursite.com/2016/09/21/hello-world/</id>
+    <link href="https://alexandertolstoy.github.io/2016/09/21/hello-world/"/>
+    <id>https://alexandertolstoy.github.io/2016/09/21/hello-world/</id>
     <published>2016-09-21T11:14:16.868Z</published>
-    <updated>2016-09-23T14:21:05.466Z</updated>
+    <updated>2016-09-24T00:07:30.631Z</updated>
     
     <content type="html"><![CDATA[<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">if</span>(you.toChange(someOne)) &#123;</div><div class="line">	<span class="keyword">try</span> &#123;</div><div class="line">    	you.love(someOne);</div><div class="line">    &#125; <span class="keyword">catch</span> (Exception e) &#123;</div><div class="line">    	you.leave(someOne);</div><div class="line">    &#125; <span class="keyword">finally</span> &#123;</div><div class="line">    	you.upgrage();</div><div class="line">    &#125;</div><div class="line">&#125; <span class="keyword">else</span> &#123;</div><div class="line">	you.goodChoice();</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
@@ -117,7 +121,9 @@
     </summary>
     
     
-      <category term="HelloWorld , Init" scheme="http://yoursite.com/tags/HelloWorld-Init/"/>
+      <category term="Hello World" scheme="https://alexandertolstoy.github.io/tags/Hello-World/"/>
+    
+      <category term="Init" scheme="https://alexandertolstoy.github.io/tags/Init/"/>
     
   </entry>
   
