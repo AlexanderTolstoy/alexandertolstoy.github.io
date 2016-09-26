@@ -7,62 +7,6 @@
     </url>
 
     <url>
-        <loc>https://alexandertolstoy.github.io/categories/OS/</loc>
-        <lastmod>2016-09-26T13:34:16.281Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://alexandertolstoy.github.io/categories/OS/Language/</loc>
-        <lastmod>2016-09-26T13:34:16.281Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://alexandertolstoy.github.io/categories/OS/Language/Database/</loc>
-        <lastmod>2016-09-26T13:34:16.281Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://alexandertolstoy.github.io/categories/OS/Language/Database/Dw-BI/</loc>
-        <lastmod>2016-09-26T13:34:16.281Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://alexandertolstoy.github.io/categories/OS/Language/Database/Dw-BI/Big-Data/</loc>
-        <lastmod>2016-09-26T13:34:16.281Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://alexandertolstoy.github.io/categories/OS/Language/Database/Dw-BI/Big-Data/Work/</loc>
-        <lastmod>2016-09-26T13:34:16.281Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://alexandertolstoy.github.io/categories/OS/Language/Database/Dw-BI/Big-Data/Work/Live/</loc>
-        <lastmod>2016-09-26T13:34:16.281Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://alexandertolstoy.github.io/categories/OS/Language/Database/Dw-BI/Big-Data/Work/Live/Reference/</loc>
-        <lastmod>2016-09-26T13:34:16.281Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
         <loc>https://alexandertolstoy.github.io/categories/Work/</loc>
         <lastmod>2016-09-26T13:34:32.076Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -72,6 +16,62 @@
     <url>
         <loc>https://alexandertolstoy.github.io/categories/%E4%B8%80%E6%97%B6%E5%85%B4%E8%B5%B7/</loc>
         <lastmod>2016-09-26T13:56:01.538Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://alexandertolstoy.github.io/categories/OS/</loc>
+        <lastmod>2016-09-26T14:03:03.200Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://alexandertolstoy.github.io/categories/OS/Language/</loc>
+        <lastmod>2016-09-26T14:03:03.200Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://alexandertolstoy.github.io/categories/OS/Language/Database/</loc>
+        <lastmod>2016-09-26T14:03:03.200Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://alexandertolstoy.github.io/categories/OS/Language/Database/DW-BI/</loc>
+        <lastmod>2016-09-26T14:03:03.200Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://alexandertolstoy.github.io/categories/OS/Language/Database/DW-BI/BigData/</loc>
+        <lastmod>2016-09-26T14:03:03.200Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://alexandertolstoy.github.io/categories/OS/Language/Database/DW-BI/BigData/Work/</loc>
+        <lastmod>2016-09-26T14:03:03.200Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://alexandertolstoy.github.io/categories/OS/Language/Database/DW-BI/BigData/Work/Live/</loc>
+        <lastmod>2016-09-26T14:03:03.200Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://alexandertolstoy.github.io/categories/OS/Language/Database/DW-BI/BigData/Work/Live/Reference/</loc>
+        <lastmod>2016-09-26T14:03:03.200Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
