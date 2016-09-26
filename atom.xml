@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://alexandertolstoy.github.io/"/>
-  <updated>2016-09-26T13:34:32.076Z</updated>
+  <updated>2016-09-26T14:15:50.812Z</updated>
   <id>https://alexandertolstoy.github.io/</id>
   
   <author>
@@ -20,9 +20,10 @@
     <link href="https://alexandertolstoy.github.io/2016/09/26/%E5%9C%B0%E5%9D%80%E5%82%A8%E5%AD%98%E4%B8%8E%E8%A7%A3%E6%9E%90/"/>
     <id>https://alexandertolstoy.github.io/2016/09/26/地址储存与解析/</id>
     <published>2016-09-26T14:13:02.343Z</published>
-    <updated>2016-09-26T13:34:32.076Z</updated>
+    <updated>2016-09-26T14:15:50.812Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>由数据源汇总过来的各种地址数据需要规范格式,统一并解析实际指代地理位置.由于政府人口信息中,地址采集既有常用的地址汉字字符串如:’浙江省杭州市’,又有为了统计分析方便储存的地址编码如邮政编码:721300,如行政区划330100.这为我们理解数据提取有效地址信息提出了严峻的考验  </p>
+    <content type="html"><![CDATA[<a id="more"></a>
+<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>由数据源汇总过来的各种地址数据需要规范格式,统一并解析实际指代地理位置.由于政府人口信息中,地址采集既有常用的地址汉字字符串如:’浙江省杭州市’,又有为了统计分析方便储存的地址编码如邮政编码:721300,如行政区划330100.这为我们理解数据提取有效地址信息提出了严峻的考验  </p>
 <h2 id="整体解决方案简述"><a href="#整体解决方案简述" class="headerlink" title="整体解决方案简述"></a>整体解决方案简述</h2><h3 id="储存"><a href="#储存" class="headerlink" title="储存"></a>储存</h3><table>
 <thead>
 <tr>
@@ -83,7 +84,8 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;由数据源汇总过来的各种地址数据需要规范格式,统一并解析实际指代地理位置.由于政府人口信息中,地址采集既有常用的地址汉字字符串如:’浙江省杭州
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;背景&quot;&gt;&lt;a href=&quot;#背景&quot; class=&quot;headerlink&quot; title=&quot;背景&quot;&gt;&lt;/a&gt;背景&lt;/h2&gt;&lt;p&gt;由数据源汇总过来的各种地址数据需要规范格式,统一并解析实际指代地理位置.由于政府人口信息中,地址采集既有
     
     </summary>
     
@@ -142,9 +144,10 @@
     <link href="https://alexandertolstoy.github.io/2016/09/26/TODO/"/>
     <id>https://alexandertolstoy.github.io/2016/09/26/TODO/</id>
     <published>2016-09-26T08:22:02.000Z</published>
-    <updated>2016-09-26T13:56:01.538Z</updated>
+    <updated>2016-09-26T14:15:25.201Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>此文档旨在记录任务与念头,以及临时工作笔记等</p>
+    <content type="html"><![CDATA[<a id="more"></a>
+<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>此文档旨在记录任务与念头,以及临时工作笔记等</p>
 <h2 id="格式"><a href="#格式" class="headerlink" title="格式"></a>格式</h2><ol>
 <li>任务主题或关键字</li>
 <li>类型<ol>
@@ -497,8 +500,9 @@
     
     <summary type="html">
     
-      &lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;此文档旨在记录任务与念头,以及临时工作笔记等&lt;/p&gt;
-&lt;h2 id=&quot;格式&quot;&gt;&lt;a href=&quot;#格式&quot; class=&quot;headerlink
+      &lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+&lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;此文档旨在记录任务与念头,以及临时工作笔记等&lt;/p&gt;
+&lt;h2 id=&quot;格式&quot;&gt;&lt;a href=&quot;#格式&quot;
     
     </summary>
     
