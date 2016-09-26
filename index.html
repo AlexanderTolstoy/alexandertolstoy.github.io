@@ -322,8 +322,7 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <a id="more"></a>
-<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>由数据源汇总过来的各种地址数据需要规范格式,统一并解析实际指代地理位置.由于政府人口信息中,地址采集既有常用的地址汉字字符串如:’浙江省杭州市’,又有为了统计分析方便储存的地址编码如邮政编码:721300,如行政区划330100.这为我们理解数据提取有效地址信息提出了严峻的考验  </p>
+              <h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>由数据源汇总过来的各种地址数据需要规范格式,统一并解析实际指代地理位置.由于政府人口信息中,地址采集既有常用的地址汉字字符串如:’浙江省杭州市’,又有为了统计分析方便储存的地址编码如邮政编码:721300,如行政区划330100.这为我们理解数据提取有效地址信息提出了严峻的考验  </p>
 <h2 id="整体解决方案简述"><a href="#整体解决方案简述" class="headerlink" title="整体解决方案简述"></a>整体解决方案简述</h2><h3 id="储存"><a href="#储存" class="headerlink" title="储存"></a>储存</h3><table>
 <thead>
 <tr>
@@ -373,14 +372,7 @@
 </tbody>
 </table>
 <hr>
-<h2 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h2><h3 id="伪代码"><a href="#伪代码" class="headerlink" title="伪代码"></a>伪代码</h3><p>  == 数据集行长约100Byte 约100万行记录 ==</p>
-<ol>
-<li>一次遍历读取RS放到Java Set中关闭jdbc会话,然后在慢慢处理  </li>
-<li>遍历RS时 即时处理  </li>
-<li>每次读取部分(利用sql处理groupby的子集),处理多次jdbc 会话  </li>
-</ol>
-  <figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div><div class="line">41</div><div class="line">42</div><div class="line">43</div><div class="line">44</div><div class="line">45</div><div class="line">46</div><div class="line">47</div><div class="line">48</div><div class="line">49</div><div class="line">50</div><div class="line">51</div><div class="line">52</div><div class="line">53</div><div class="line">54</div><div class="line">55</div><div class="line">56</div></pre></td><td class="code"><pre><div class="line">   JavaBean AddressBean&lt;addresscode,addresskey&gt; ;</div><div class="line">   HashMap&lt;addresskey,addresscode&gt; uniqueAddressMap; // 唯一关键字地址集合 == 唯一关键字地址集合中, 地址关键字为 key, 地址编码为 value ==</div><div class="line">   HashMap&lt;addresscode,addresskey&gt; duplicationAddressMap; //关键字重复地址集合  , == 重复地址集合中 以地址编码 为 key,地址关键字为 value ==</div><div class="line">   HashSet&lt;addresskey&gt; duplicationKeySet; //重复关键字集合 </div><div class="line">   int[] addressSetLevel = &#123;0,2,4,6,9,12&#125; //地址集合等级</div><div class="line">   String addressSetID;  //地址集合范围ID,如3301 表示 杭州市范围</div><div class="line">   ResultSet rsAddress = 'select addresscode,addresskey from addressSet where substr(addresscode,1,addressSetLevel)=addressSetID ;</div><div class="line"></div><div class="line">   /*</div><div class="line">    *@discription  分集合,写入唯一关键字</div><div class="line">	*@param   HashSet AddressSet //未处理地址集合</div><div class="line">	*@param   int addressSetLevel   //地址集合级别</div><div class="line">	*@param	  String addressSetID //地址集合ID</div><div class="line">	*@return  HashSet&lt;AddressBean&gt; duplicationAddressMap //重复地址集合</div><div class="line">	*/</div><div class="line"></div><div class="line">	public HashMap&lt;addresscode,addresskey&gt; filterAddressSet(HashSet&lt;addresscode,addresskey&gt; hashSet,int addressSetLevel,String addressSetID</div><div class="line">v)&#123; </div><div class="line">		for addressBean in rsAddress&lt;addresscode,addresskey&gt; &#123;</div><div class="line">	   if(uniqueAddressMap.exist(addressBean.addresskey))&#123;   //判断唯一集合是否已存在此key</div><div class="line">	    duplicationKeySet.put(addressBean.addresskey) //将已重复key放入key集合</div><div class="line">	    duplicationAddressMap.put(addressBean&lt;addresscode,addresskey&gt; ); //将已重复地址bean放入重复地址集合</div><div class="line">	   &#125;else &#123;</div><div class="line">	    uniqueAddressMap.put(addressBean.addresskey,addressBean.addresscode); //如果唯一关键字地址集合不存在此key,则放入地址</div><div class="line">	   &#125;</div><div class="line">	&#125;</div><div class="line">	for addressKey in duplicationKeySet&lt;addresskey&gt; &#123;</div><div class="line">	 duplicationAddressMap.put(uniqueAddressMap.getBean(addresskey).addresscode,addresskey);  //从唯一关键字地址集合中复制有重复关键字的地址到 重复关键字地址集合.</div><div class="line">	 uniqueAddressMap.remove(addressKey);  //从唯一关键字地址集合中删除 已知重复关键字的地址集合</div><div class="line">	&#125;</div><div class="line">	 Database.connection.execSql(addSetToTable(addressSetID,uniqueAddressMap&lt;addresskey,addresscode&gt;));  //追加保存唯一关键字地址集合及其集合ID  </div><div class="line">	 uniqueAddressMap.clear();ID  // 清空唯一关键字地址集合,释放内存待下次使用.  </div><div class="line">	 return duplicationAddressMap //返回 重复关键字地址集合,待下阶段分组并使用. </div><div class="line">	</div><div class="line">	&#125; </div><div class="line">	 </div><div class="line">	/*</div><div class="line">	 *@discription  地址分组</div><div class="line">	 *@param  String addressSetID  //集合IDduplicationAddressMap</div><div class="line">	 *@param  int addressSetLevel  //集合等级</div><div class="line">	 *@param  HashMap duplicationAddressMap  //地址集合</div><div class="line">	 *@return HashMap&lt;subAddressSetID,subduplicationAddressMap&gt;  //</div><div class="line">	 */</div><div class="line">	 </div><div class="line">	 public HashMap&lt;subAddressSetID,subduplicationAddressMap&gt;  groupAddressSet(String addressSetID,int addressSetLevel,HashMap duplicationAddressMap)&#123;</div><div class="line">	 	</div><div class="line">	 &#125;</div><div class="line">	 </div><div class="line">	 /*</div><div class="line">	  *@discription 入口,总流程控制,初始化全局变量.</div><div class="line">	  */</div><div class="line">	 public static void main(String[] args)&#123;</div><div class="line">	   </div><div class="line">	   </div><div class="line">	  </div><div class="line">	 &#125;</div></pre></td></tr></table></figure>
-
+          
       
     </div>
     
@@ -397,6 +389,10 @@
         <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Java/">Java</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/sql/">sql</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/行政区划编码及地址/">行政区划编码及地址</a></li></ul>
     </div>
 
+      
+        <p class="article-more-link">
+          <a href="/2016/09/26/地址储存与解析/#more">more >></a>
+        </p>
       
       <div class="clearfix"></div>
     </div>
@@ -529,8 +525,7 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <a id="more"></a>
-<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>此文档旨在记录任务与念头,以及临时工作笔记等</p>
+              <h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>此文档旨在记录任务与念头,以及临时工作笔记等</p>
 <h2 id="格式"><a href="#格式" class="headerlink" title="格式"></a>格式</h2><ol>
 <li>任务主题或关键字</li>
 <li>类型<ol>
@@ -556,330 +551,7 @@
 </li>
 <li>内容</li>
 </ol>
-<h2 id="List"><a href="#List" class="headerlink" title="List"></a>List</h2><p>main:  github博客分类(categories)及标签(tags)<br>type:  N<br>ST: 2016-09-26<br>ET: …<br>level: W<br>status: 2016-09-26 第一次编写<br>content:  </p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">categories</th>
-<th style="text-align:left">tags</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">tags</td>
-<td style="text-align:left">IBM</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Oracle</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Red Hat</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">MicroSoft</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Google</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Apache</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Hadoop</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">HP</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">华为</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">阿里巴巴</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">腾讯</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">百度</td>
-</tr>
-<tr>
-<td style="text-align:left">OS</td>
-<td style="text-align:left">Unix-like</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Linux</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">RHEL</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">CentOS</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">OracleLinux</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Aix</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">HP-Unix</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Solaris</td>
-</tr>
-<tr>
-<td style="text-align:left">Language</td>
-<td style="text-align:left">C</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Java</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Sql</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Shell</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Python</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Hive</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Javascript</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Html-css</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">XML</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">MarkDwon</td>
-</tr>
-<tr>
-<td style="text-align:left">Database</td>
-<td style="text-align:left">Oracle</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">DB2</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Mysql</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">MS-Sqlserver</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Greenplum</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Informix</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Teradata</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Hbase</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">RDMBS</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Nosql</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">GoldenGate</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">RAC</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">DataGuard</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">MangoDB</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Redis</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">PostgreSql</td>
-</tr>
-<tr>
-<td style="text-align:left">DW/BI</td>
-<td style="text-align:left">DataStage</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Informatic</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">BIEE</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">kettle</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">ETL</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">DataModel</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">MasterData</td>
-</tr>
-<tr>
-<td style="text-align:left">Work</td>
-<td style="text-align:left">ZJRKK</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Sinobpo</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">TZSW</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">JQKJ</td>
-</tr>
-<tr>
-<td style="text-align:left">Live</td>
-<td style="text-align:left">Programer</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Love</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Family</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Sport</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Friend</td>
-</tr>
-<tr>
-<td style="text-align:left">Tools</td>
-<td style="text-align:left">Eclipse</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Vim</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Scrt</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">putty</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Xshell</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Uedit</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">EDraw</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Visio</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Word</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">PowerPoint</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Excel</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Toad</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">VNC</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">PowerBuild</td>
-</tr>
-<tr>
-<td style="text-align:left">Reference</td>
-<td style="text-align:left">Private</td>
-</tr>
-<tr>
-<td style="text-align:left"></td>
-<td style="text-align:left">Public</td>
-</tr>
-</tbody>
-</table>
-
+          
       
     </div>
     
@@ -896,6 +568,10 @@
         <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Memorandum/">Memorandum</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/NOTE/">NOTE</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/TEMP/">TEMP</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/躬行/">躬行</a></li></ul>
     </div>
 
+      
+        <p class="article-more-link">
+          <a href="/2016/09/26/TODO/#more">more >></a>
+        </p>
       
       <div class="clearfix"></div>
     </div>
