@@ -4,41 +4,8 @@
   
     
     <entry>
-      <title><![CDATA[TODO]]></title>
-      <url>https://alexandertolstoy.github.io/2016/09/26/TODO/</url>
-      <content type="html"><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>此文档旨在记录任务与念头,以及临时工作笔记等</p>
-<h2 id="格式"><a href="#格式" class="headerlink" title="格式"></a>格式</h2><ol>
-<li>任务主题或关键字</li>
-<li>类型<ol>
-<li>任务 T(Task)  </li>
-<li>备忘录|念头|想法 M(Memorandum/Momery)  </li>
-<li>计划 P(Plan) </li>
-<li>日志|记录 N(Note|LOG)  </li>
-</ol>
-</li>
-<li>记录时间</li>
-<li>预计完成时间</li>
-<li>等级<ol>
-<li>必须尽快完成  F (must and Fast) </li>
-<li>必须按时完成     M (must before deadline)BD  </li>
-<li>需完成        N (need)  </li>
-<li>随意        W (as you wish/ Will)  </li>
-</ol>
-</li>
-<li>进度<ol>
-<li>时间</li>
-<li>情况描述</li>
-</ol>
-</li>
-<li>内容</li>
-</ol>
-<h2 id="List"><a href="#List" class="headerlink" title="List"></a>List</h2><p>main:  github博客分类(categories)及标签(tags)<br>type:  N<br>ST: 2016-09-26<br>ET: …<br>level: W<br>status: 2016-09-26(第一次编写)<br>content:<br>categories|tags<br>———-|—-<br>tags|IBM<br>|Oracle<br>|Red Hat<br>|MicroSoft<br>|Google<br>|Apache<br>|Hadoop<br>|HP<br>|华为<br>|阿里巴巴<br>|腾讯<br>|百度<br>OS|Unix-like<br> |Linux<br> |RHEL<br> |CentOS<br> |OracleLinux<br> |Aix<br> |HP-Unix<br> |Solaris<br>Language|C<br>|Java<br>|Sql<br>|Shell<br>|Python<br>|Hive<br>|Javascript<br>|Html-css<br>|XML<br>|MarkDwon<br>Database|Oracle<br>|DB2<br>|Mysql<br>|MS-Sqlserver<br>|Greenplum<br>|Informix<br>|Teradata<br>|Hbase<br>|RDMBS<br>|Nosql<br>|GoldenGate<br>|RAC<br>|DataGuard<br>|MangoDB<br>|Redis<br>|PostgreSql<br>DW/BI|DataStage<br>|Informatic<br>|BIEE<br>|kettle<br>|ETL<br>|DataModel<br>|MasterData<br>Work|ZJRKK<br>|Sinobpo<br>|TZSW<br>|JQKJ<br>Live|Programer<br>|Love<br>|Family<br>|Sport<br>|Friend<br>Tools|Eclipse<br>|Vim<br>|Scrt<br>|putty<br>|Xshell<br>|Uedit<br>|EDraw<br>|Visio<br>|Word<br>|PowerPoint<br>|Excel<br>|Toad<br>|VNC<br>|PowerBuild</p>
-]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[地址储存与解析]]></title>
-      <url>https://alexandertolstoy.github.io/2016/09/23/%E5%9C%B0%E5%9D%80%E5%82%A8%E5%AD%98%E4%B8%8E%E8%A7%A3%E6%9E%90/</url>
+      <url>https://alexandertolstoy.github.io/2016/09/26/%E5%9C%B0%E5%9D%80%E5%82%A8%E5%AD%98%E4%B8%8E%E8%A7%A3%E6%9E%90/</url>
       <content type="html"><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>由数据源汇总过来的各种地址数据需要规范格式,统一并解析实际指代地理位置.由于政府人口信息中,地址采集既有常用的地址汉字字符串如:’浙江省杭州市’,又有为了统计分析方便储存的地址编码如邮政编码:721300,如行政区划330100.这为我们理解数据提取有效地址信息提出了严峻的考验  </p>
 <h2 id="整体解决方案简述"><a href="#整体解决方案简述" class="headerlink" title="整体解决方案简述"></a>整体解决方案简述</h2><h3 id="储存"><a href="#储存" class="headerlink" title="储存"></a>储存</h3><table>
 <thead>
@@ -101,7 +68,7 @@
     
     <entry>
       <title><![CDATA[Hello World]]></title>
-      <url>https://alexandertolstoy.github.io/2016/09/21/hello-world/</url>
+      <url>https://alexandertolstoy.github.io/2016/09/26/hello-world/</url>
       <content type="html"><![CDATA[<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">if</span>(you.toChange(someOne)) &#123;</div><div class="line">	<span class="keyword">try</span> &#123;</div><div class="line">    	you.love(someOne);</div><div class="line">    &#125; <span class="keyword">catch</span> (Exception e) &#123;</div><div class="line">    	you.leave(someOne);</div><div class="line">    &#125; <span class="keyword">finally</span> &#123;</div><div class="line">    	you.upgrage();</div><div class="line">    &#125;</div><div class="line">&#125; <span class="keyword">else</span> &#123;</div><div class="line">	you.goodChoice();</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
@@ -111,6 +78,361 @@
 <p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
+]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[TODO]]></title>
+      <url>https://alexandertolstoy.github.io/2016/09/26/TODO/</url>
+      <content type="html"><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>此文档旨在记录任务与念头,以及临时工作笔记等</p>
+<h2 id="格式"><a href="#格式" class="headerlink" title="格式"></a>格式</h2><ol>
+<li>任务主题或关键字</li>
+<li>类型<ol>
+<li>任务 T(Task)  </li>
+<li>备忘录|念头|想法 M(Memorandum/Momery)  </li>
+<li>计划 P(Plan) </li>
+<li>日志|记录 N(Note|LOG)  </li>
+</ol>
+</li>
+<li>记录时间</li>
+<li>预计完成时间</li>
+<li>等级<ol>
+<li>必须尽快完成  F (must and Fast) </li>
+<li>必须按时完成     M (must before deadline)BD  </li>
+<li>需完成        N (need)  </li>
+<li>随意        W (as you wish/ Will)  </li>
+</ol>
+</li>
+<li>进度<ol>
+<li>时间</li>
+<li>情况描述</li>
+</ol>
+</li>
+<li>内容</li>
+</ol>
+<h2 id="List"><a href="#List" class="headerlink" title="List"></a>List</h2><p>main:  github博客分类(categories)及标签(tags)<br>type:  N<br>ST: 2016-09-26<br>ET: …<br>level: W<br>status: 2016-09-26 第一次编写<br>content:  </p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">categories</th>
+<th style="text-align:left">tags</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">tags</td>
+<td style="text-align:left">IBM</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Oracle</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Red Hat</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">MicroSoft</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Google</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Apache</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Hadoop</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">HP</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">华为</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">阿里巴巴</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">腾讯</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">百度</td>
+</tr>
+<tr>
+<td style="text-align:left">OS</td>
+<td style="text-align:left">Unix-like</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Linux</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">RHEL</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">CentOS</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">OracleLinux</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Aix</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">HP-Unix</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Solaris</td>
+</tr>
+<tr>
+<td style="text-align:left">Language</td>
+<td style="text-align:left">C</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Java</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Sql</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Shell</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Python</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Hive</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Javascript</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Html-css</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">XML</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">MarkDwon</td>
+</tr>
+<tr>
+<td style="text-align:left">Database</td>
+<td style="text-align:left">Oracle</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">DB2</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Mysql</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">MS-Sqlserver</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Greenplum</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Informix</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Teradata</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Hbase</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">RDMBS</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Nosql</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">GoldenGate</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">RAC</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">DataGuard</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">MangoDB</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Redis</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">PostgreSql</td>
+</tr>
+<tr>
+<td style="text-align:left">DW/BI</td>
+<td style="text-align:left">DataStage</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Informatic</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">BIEE</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">kettle</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">ETL</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">DataModel</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">MasterData</td>
+</tr>
+<tr>
+<td style="text-align:left">Work</td>
+<td style="text-align:left">ZJRKK</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Sinobpo</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">TZSW</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">JQKJ</td>
+</tr>
+<tr>
+<td style="text-align:left">Live</td>
+<td style="text-align:left">Programer</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Love</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Family</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Sport</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Friend</td>
+</tr>
+<tr>
+<td style="text-align:left">Tools</td>
+<td style="text-align:left">Eclipse</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Vim</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Scrt</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">putty</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Xshell</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Uedit</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">EDraw</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Visio</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Word</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">PowerPoint</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Excel</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Toad</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">VNC</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">PowerBuild</td>
+</tr>
+<tr>
+<td style="text-align:left">Reference</td>
+<td style="text-align:left">Private</td>
+</tr>
+<tr>
+<td style="text-align:left"></td>
+<td style="text-align:left">Public</td>
+</tr>
+</tbody>
+</table>
 ]]></content>
     </entry>
     

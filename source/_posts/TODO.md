@@ -39,83 +39,87 @@ type:  N
 ST: 2016-09-26
 ET: ...
 level: W  
-status: 2016-09-26(第一次编写)
-content: 
-categories|tags
-----------|----
-tags|IBM
-|Oracle
-|Red Hat
-|MicroSoft
-|Google
-|Apache
-|Hadoop
-|HP
-|华为
-|阿里巴巴
-|腾讯
-|百度
-OS|Unix-like
- |Linux
- |RHEL
- |CentOS
- |OracleLinux
- |Aix
- |HP-Unix
- |Solaris
-Language|C
-|Java
-|Sql
-|Shell
-|Python
-|Hive
-|Javascript
-|Html-css
-|XML
-|MarkDwon
-Database|Oracle
-|DB2
-|Mysql
-|MS-Sqlserver
-|Greenplum
-|Informix
-|Teradata
-|Hbase
-|RDMBS
-|Nosql
-|GoldenGate
-|RAC
-|DataGuard
-|MangoDB
-|Redis
-|PostgreSql
-DW/BI|DataStage
-|Informatic
-|BIEE
-|kettle
-|ETL
-|DataModel
-|MasterData
-Work|ZJRKK
-|Sinobpo
-|TZSW
-|JQKJ
-Live|Programer
-|Love
-|Family
-|Sport
-|Friend
-Tools|Eclipse
-|Vim
-|Scrt
-|putty
-|Xshell
-|Uedit
-|EDraw
-|Visio
-|Word
-|PowerPoint
-|Excel
-|Toad
-|VNC
-|PowerBuild
+status: 2016-09-26 第一次编写
+content:  
+
+
+| categories|tags  |
+|:----------|:---- |
+| tags|IBM|
+| |Oracle|
+| |Red Hat|
+| |MicroSoft|
+| |Google|
+| |Apache|
+| |Hadoop|
+| |HP|
+| |华为|
+| |阿里巴巴|
+| |腾讯|
+| |百度|
+| OS|Unix-like|
+|  |Linux|
+|  |RHEL|
+|  |CentOS|
+|  |OracleLinux|
+|  |Aix|
+|  |HP-Unix|
+|  |Solaris|
+| Language|C|
+| |Java|
+| |Sql|
+| |Shell|
+| |Python|
+| |Hive|
+| |Javascript|
+| |Html-css|
+| |XML|
+| |MarkDwon|
+| Database|Oracle|
+| |DB2|
+| |Mysql|
+| |MS-Sqlserver|
+| |Greenplum|
+| |Informix|
+| |Teradata|
+| |Hbase|
+| |RDMBS|
+| |Nosql|
+| |GoldenGate|
+| |RAC|
+| |DataGuard|
+| |MangoDB|
+| |Redis|
+| |PostgreSql|
+| DW/BI|DataStage|
+| |Informatic|
+| |BIEE|
+| |kettle|
+| |ETL|
+| |DataModel|
+| |MasterData|
+| Work|ZJRKK|
+| |Sinobpo|
+| |TZSW|
+| |JQKJ|
+| Live|Programer|
+| |Love|
+| |Family|
+| |Sport|
+| |Friend|
+| Tools|Eclipse|
+| |Vim|
+| |Scrt|
+| |putty|
+| |Xshell|
+| |Uedit|
+| |EDraw|
+| |Visio|
+| |Word|
+| |PowerPoint|
+| |Excel|
+| |Toad|
+| |VNC|
+| |PowerBuild|
+|Reference|Private|
+||Public|
