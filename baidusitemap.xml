@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://alexandertolstoy.github.io/2016/09/21/hello-world/</loc>
-    <lastmod>2016-09-24T00:13:57.321Z</lastmod>
+    <lastmod>2016-09-24T01:28:04.555Z</lastmod>
     <data>
         <display>
         <title>Hello World</title>
@@ -17,6 +17,20 @@
          
          
            
+             
+              <breadCrumb title="OS" url="https://alexandertolstoy.github.io/categories/OS/"/>
+          
+             
+              <breadCrumb title="Language" url="https://alexandertolstoy.github.io/categories/OS/Language/"/>
+          
+             
+              <breadCrumb title="Database" url="https://alexandertolstoy.github.io/categories/OS/Language/Database/"/>
+          
+             
+             
+             
+             
+             
         </display>
     </data>
     </url>
@@ -24,7 +38,7 @@
     
   <url>
     <loc>https://alexandertolstoy.github.io/2016/09/23/%E5%9C%B0%E5%9D%80%E5%82%A8%E5%AD%98%E4%B8%8E%E8%A7%A3%E6%9E%90/</loc>
-    <lastmod>2016-09-24T00:13:45.162Z</lastmod>
+    <lastmod>2016-09-24T00:15:31.921Z</lastmod>
     <data>
         <display>
         <title>地址储存与解析</title>
