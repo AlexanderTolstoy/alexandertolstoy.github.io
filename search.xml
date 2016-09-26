@@ -4,6 +4,39 @@
   
     
     <entry>
+      <title><![CDATA[TODO]]></title>
+      <url>https://alexandertolstoy.github.io/2016/09/26/TODO/</url>
+      <content type="html"><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>此文档旨在记录任务与念头,以及临时工作笔记等</p>
+<h2 id="格式"><a href="#格式" class="headerlink" title="格式"></a>格式</h2><ol>
+<li>任务主题或关键字</li>
+<li>类型<ol>
+<li>任务 T(Task)  </li>
+<li>备忘录|念头|想法 M(Memorandum/Momery)  </li>
+<li>计划 P(Plan) </li>
+<li>日志|记录 N(Note|LOG)  </li>
+</ol>
+</li>
+<li>记录时间</li>
+<li>预计完成时间</li>
+<li>等级<ol>
+<li>必须尽快完成  F (must and Fast) </li>
+<li>必须按时完成     M (must before deadline)BD  </li>
+<li>需完成        N (need)  </li>
+<li>随意        W (as you wish/ Will)  </li>
+</ol>
+</li>
+<li>进度<ol>
+<li>时间</li>
+<li>情况描述</li>
+</ol>
+</li>
+<li>内容</li>
+</ol>
+<h2 id="List"><a href="#List" class="headerlink" title="List"></a>List</h2><p>main:  github博客分类(categories)及标签(tags)<br>type:  N<br>ST: 2016-09-26<br>ET: …<br>level: W<br>status: 2016-09-26(第一次编写)<br>content:<br>categories|tags<br>———-|—-<br>tags|IBM<br>|Oracle<br>|Red Hat<br>|MicroSoft<br>|Google<br>|Apache<br>|Hadoop<br>|HP<br>|华为<br>|阿里巴巴<br>|腾讯<br>|百度<br>OS|Unix-like<br> |Linux<br> |RHEL<br> |CentOS<br> |OracleLinux<br> |Aix<br> |HP-Unix<br> |Solaris<br>Language|C<br>|Java<br>|Sql<br>|Shell<br>|Python<br>|Hive<br>|Javascript<br>|Html-css<br>|XML<br>|MarkDwon<br>Database|Oracle<br>|DB2<br>|Mysql<br>|MS-Sqlserver<br>|Greenplum<br>|Informix<br>|Teradata<br>|Hbase<br>|RDMBS<br>|Nosql<br>|GoldenGate<br>|RAC<br>|DataGuard<br>|MangoDB<br>|Redis<br>|PostgreSql<br>DW/BI|DataStage<br>|Informatic<br>|BIEE<br>|kettle<br>|ETL<br>|DataModel<br>|MasterData<br>Work|ZJRKK<br>|Sinobpo<br>|TZSW<br>|JQKJ<br>Live|Programer<br>|Love<br>|Family<br>|Sport<br>|Friend<br>Tools|Eclipse<br>|Vim<br>|Scrt<br>|putty<br>|Xshell<br>|Uedit<br>|EDraw<br>|Visio<br>|Word<br>|PowerPoint<br>|Excel<br>|Toad<br>|VNC<br>|PowerBuild</p>
+]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[地址储存与解析]]></title>
       <url>https://alexandertolstoy.github.io/2016/09/23/%E5%9C%B0%E5%9D%80%E5%82%A8%E5%AD%98%E4%B8%8E%E8%A7%A3%E6%9E%90/</url>
       <content type="html"><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>由数据源汇总过来的各种地址数据需要规范格式,统一并解析实际指代地理位置.由于政府人口信息中,地址采集既有常用的地址汉字字符串如:’浙江省杭州市’,又有为了统计分析方便储存的地址编码如邮政编码:721300,如行政区划330100.这为我们理解数据提取有效地址信息提出了严峻的考验  </p>

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://alexandertolstoy.github.io/"/>
-  <updated>2016-09-24T00:15:31.921Z</updated>
+  <updated>2016-09-26T13:23:12.069Z</updated>
   <id>https://alexandertolstoy.github.io/</id>
   
   <author>
@@ -14,6 +14,62 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>TODO</title>
+    <link href="https://alexandertolstoy.github.io/2016/09/26/TODO/"/>
+    <id>https://alexandertolstoy.github.io/2016/09/26/TODO/</id>
+    <published>2016-09-26T08:22:02.000Z</published>
+    <updated>2016-09-26T13:23:12.069Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>此文档旨在记录任务与念头,以及临时工作笔记等</p>
+<h2 id="格式"><a href="#格式" class="headerlink" title="格式"></a>格式</h2><ol>
+<li>任务主题或关键字</li>
+<li>类型<ol>
+<li>任务 T(Task)  </li>
+<li>备忘录|念头|想法 M(Memorandum/Momery)  </li>
+<li>计划 P(Plan) </li>
+<li>日志|记录 N(Note|LOG)  </li>
+</ol>
+</li>
+<li>记录时间</li>
+<li>预计完成时间</li>
+<li>等级<ol>
+<li>必须尽快完成  F (must and Fast) </li>
+<li>必须按时完成     M (must before deadline)BD  </li>
+<li>需完成        N (need)  </li>
+<li>随意        W (as you wish/ Will)  </li>
+</ol>
+</li>
+<li>进度<ol>
+<li>时间</li>
+<li>情况描述</li>
+</ol>
+</li>
+<li>内容</li>
+</ol>
+<h2 id="List"><a href="#List" class="headerlink" title="List"></a>List</h2><p>main:  github博客分类(categories)及标签(tags)<br>type:  N<br>ST: 2016-09-26<br>ET: …<br>level: W<br>status: 2016-09-26(第一次编写)<br>content:<br>categories|tags<br>———-|—-<br>tags|IBM<br>|Oracle<br>|Red Hat<br>|MicroSoft<br>|Google<br>|Apache<br>|Hadoop<br>|HP<br>|华为<br>|阿里巴巴<br>|腾讯<br>|百度<br>OS|Unix-like<br> |Linux<br> |RHEL<br> |CentOS<br> |OracleLinux<br> |Aix<br> |HP-Unix<br> |Solaris<br>Language|C<br>|Java<br>|Sql<br>|Shell<br>|Python<br>|Hive<br>|Javascript<br>|Html-css<br>|XML<br>|MarkDwon<br>Database|Oracle<br>|DB2<br>|Mysql<br>|MS-Sqlserver<br>|Greenplum<br>|Informix<br>|Teradata<br>|Hbase<br>|RDMBS<br>|Nosql<br>|GoldenGate<br>|RAC<br>|DataGuard<br>|MangoDB<br>|Redis<br>|PostgreSql<br>DW/BI|DataStage<br>|Informatic<br>|BIEE<br>|kettle<br>|ETL<br>|DataModel<br>|MasterData<br>Work|ZJRKK<br>|Sinobpo<br>|TZSW<br>|JQKJ<br>Live|Programer<br>|Love<br>|Family<br>|Sport<br>|Friend<br>Tools|Eclipse<br>|Vim<br>|Scrt<br>|putty<br>|Xshell<br>|Uedit<br>|EDraw<br>|Visio<br>|Word<br>|PowerPoint<br>|Excel<br>|Toad<br>|VNC<br>|PowerBuild</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;说明&quot;&gt;&lt;a href=&quot;#说明&quot; class=&quot;headerlink&quot; title=&quot;说明&quot;&gt;&lt;/a&gt;说明&lt;/h2&gt;&lt;p&gt;此文档旨在记录任务与念头,以及临时工作笔记等&lt;/p&gt;
+&lt;h2 id=&quot;格式&quot;&gt;&lt;a href=&quot;#格式&quot; class=&quot;headerlink
+    
+    </summary>
+    
+      <category term="一时兴起" scheme="https://alexandertolstoy.github.io/categories/%E4%B8%80%E6%97%B6%E5%85%B4%E8%B5%B7/"/>
+    
+    
+      <category term="TEMP" scheme="https://alexandertolstoy.github.io/tags/TEMP/"/>
+    
+      <category term="NOTE" scheme="https://alexandertolstoy.github.io/tags/NOTE/"/>
+    
+      <category term="Memorandum" scheme="https://alexandertolstoy.github.io/tags/Memorandum/"/>
+    
+      <category term="躬行" scheme="https://alexandertolstoy.github.io/tags/%E8%BA%AC%E8%A1%8C/"/>
+    
+  </entry>
   
   <entry>
     <title>地址储存与解析</title>
