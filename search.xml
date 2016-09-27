@@ -4,6 +4,14 @@
   
     
     <entry>
+      <title><![CDATA[Hadoop2.0Installation]]></title>
+      <url>https://alexandertolstoy.github.io/2016/09/27/Hadoop2-0Installation/</url>
+      <content type="html"><![CDATA[<h2 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h2><p>安装Hadoop及HBase,以初步学习理解Hadoop基cu架构与常用</p>
+<a id="more"></a>
+<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><h2 id="实施"><a href="#实施" class="headerlink" title="实施"></a>实施</h2>]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[地址储存与解析]]></title>
       <url>https://alexandertolstoy.github.io/2016/09/26/%E5%9C%B0%E5%9D%80%E5%82%A8%E5%AD%98%E4%B8%8E%E8%A7%A3%E6%9E%90/</url>
       <content type="html"><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>由数据源汇总过来的各种地址数据需要规范格式,统一并解析实际指代地理位置.由于政府人口信息中,地址采集既有常用的地址汉字字符串如:’浙江省杭州市’,又有为了统计分析方便储存的地址编码如邮政编码:721300,如行政区划330100.这为我们理解数据提取有效地址信息提出了严峻的考验  </p>

@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://alexandertolstoy.github.io/"/>
-  <updated>2016-09-26T14:19:07.762Z</updated>
+  <updated>2016-09-27T00:20:44.096Z</updated>
   <id>https://alexandertolstoy.github.io/</id>
   
   <author>
@@ -14,6 +14,36 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hadoop2.0Installation</title>
+    <link href="https://alexandertolstoy.github.io/2016/09/27/Hadoop2-0Installation/"/>
+    <id>https://alexandertolstoy.github.io/2016/09/27/Hadoop2-0Installation/</id>
+    <published>2016-09-26T23:57:56.000Z</published>
+    <updated>2016-09-27T00:20:44.096Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h2><p>安装Hadoop及HBase,以初步学习理解Hadoop基cu架构与常用</p>
+<a id="more"></a>
+<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><h2 id="实施"><a href="#实施" class="headerlink" title="实施"></a>实施</h2>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;目标&quot;&gt;&lt;a href=&quot;#目标&quot; class=&quot;headerlink&quot; title=&quot;目标&quot;&gt;&lt;/a&gt;目标&lt;/h2&gt;&lt;p&gt;安装Hadoop及HBase,以初步学习理解Hadoop基cu架构与常用&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="BigData" scheme="https://alexandertolstoy.github.io/categories/BigData/"/>
+    
+    
+      <category term="Installation" scheme="https://alexandertolstoy.github.io/tags/Installation/"/>
+    
+      <category term="Hadoop" scheme="https://alexandertolstoy.github.io/tags/Hadoop/"/>
+    
+      <category term="HBase" scheme="https://alexandertolstoy.github.io/tags/HBase/"/>
+    
+      <category term="ZooKeeper" scheme="https://alexandertolstoy.github.io/tags/ZooKeeper/"/>
+    
+  </entry>
   
   <entry>
     <title>地址储存与解析</title>
