@@ -29,3 +29,17 @@ if(you.toChange(someOne)) {
 ```
 
 <!-- more -->
+
+```java
+
+Person theOne = whichone.doClike(more);
+if(theOne.getName().equals("胡不归")) {
+	Tolstoy.sayTo(theOne,"Thank you");
+    Tolstoy.sing("春风再美也比不上你的笑,没见过你的人不会明了");
+    Tolstoy.askTo(theOne,"是否太晚?");
+} else {
+    theOne.forget(this.Page);
+}
+
+```
+    

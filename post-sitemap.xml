@@ -7,16 +7,8 @@
     </url>
 
     <url>
-        <loc>https://alexandertolstoy.github.io/2016/09/27/Hadoop2-0Installation/</loc>
-        <lastmod>2016-09-27T00:20:44.096Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.6</priority>
-
-    </url>
-
-    <url>
-        <loc>https://alexandertolstoy.github.io/2016/09/26/%E5%9C%B0%E5%9D%80%E5%82%A8%E5%AD%98%E4%B8%8E%E8%A7%A3%E6%9E%90/</loc>
-        <lastmod>2016-09-26T14:19:07.762Z</lastmod>
+        <loc>https://alexandertolstoy.github.io/2016/09/26/hello-world/</loc>
+        <lastmod>2016-09-28T15:53:38.303Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
@@ -24,15 +16,31 @@
 
     <url>
         <loc>https://alexandertolstoy.github.io/2016/09/26/TODO/</loc>
-        <lastmod>2016-09-26T14:18:35.115Z</lastmod>
+        <lastmod>2016-09-28T15:24:27.736Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 
     </url>
 
     <url>
-        <loc>https://alexandertolstoy.github.io/2016/09/26/hello-world/</loc>
-        <lastmod>2016-09-26T14:03:03.200Z</lastmod>
+        <loc>https://alexandertolstoy.github.io/2016/09/28/SetupPythonENV/</loc>
+        <lastmod>2016-09-28T15:22:44.556Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://alexandertolstoy.github.io/2016/09/27/Hadoop2-0Installation/</loc>
+        <lastmod>2016-09-28T11:17:00.534Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
+        <loc>https://alexandertolstoy.github.io/2016/09/26/%E5%9C%B0%E5%9D%80%E5%82%A8%E5%AD%98%E4%B8%8E%E8%A7%A3%E6%9E%90/</loc>
+        <lastmod>2016-09-28T11:17:00.534Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
 

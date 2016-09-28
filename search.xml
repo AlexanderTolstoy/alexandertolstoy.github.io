@@ -4,6 +4,30 @@
   
     
     <entry>
+      <title><![CDATA[Install and configure the Python ENV on RHEL6.5]]></title>
+      <url>https://alexandertolstoy.github.io/2016/09/28/SetupPythonENV/</url>
+      <content type="html"><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>在linux中安装python3,并且配置python3开发环境</p>
+<a id="more"></a>
+<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ol>
+<li><a href="https://www.python.org/" target="_blank" rel="external">Python官方网站</a></li>
+<li><a href="https://docs.python.org/3/" target="_blank" rel="external">Python Documents 3.0</a></li>
+<li><a href="http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000" target="_blank" rel="external">廖雪峰Python 教程</a></li>
+<li><a href="http://www.tuicool.com/articles/j2ueiir" target="_blank" rel="external">Linux6.4 安装Python3.5,pip,setuptools</a></li>
+<li><a href="https://pypi.python.org/pypi/setuptools#unix-including-mac-os-x-curl" target="_blank" rel="external">setuptools 28 Installation</a></li>
+<li><a href="https://pypi.python.org/pypi/pip/8.1.2" target="_blank" rel="external">pip 8.1.2 Installation</a></li>
+</ol>
+<h2 id="安装包及下载链接"><a href="#安装包及下载链接" class="headerlink" title="安装包及下载链接"></a>安装包及下载链接</h2><ol>
+<li><a href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/R/eclipse-cpp-neon-R-linux-gtk-x86_64.tar.gz&amp;mirror_id=448" target="_blank" rel="external">eclipse IDE for C/C++ Developers(linux_x64)</a></li>
+<li><a href="https://www.python.org/ftp/python/3.5.2/Python-3.5.2.tgz" target="_blank" rel="external">python3.5.2_tgz</a></li>
+<li><a href="https://pypi.python.org/packages/f7/94/eee867605a99ac113c4108534ad7c292ed48bf1d06dfe7b63daa51e49987/setuptools-28.0.0.tar.gz#md5=9b23df90e1510c7353a5cf07873dcd22" target="_blank" rel="external">setuptools-28.0.0.tar.gz</a></li>
+<li><a href="https://www.python.org/downloads/source/" target="_blank" rel="external">Python Source Download</a></li>
+<li><a href="https://pypi.python.org/packages/e7/a8/7556133689add8d1a54c0b14aeff0acb03c64707ce100ecd53934da1aa13/pip-8.1.2.tar.gz#md5=87083c0b9867963b29f7aba3613e8f4a" target="_blank" rel="external">pip-8.1.2.tar.gz</a></li>
+<li></li>
+</ol>
+<h2 id="安装与配置"><a href="#安装与配置" class="headerlink" title="安装与配置"></a>安装与配置</h2><h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><h3 id="安装日志"><a href="#安装日志" class="headerlink" title="安装日志"></a>安装日志</h3>]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[Hadoop2.0Installation]]></title>
       <url>https://alexandertolstoy.github.io/2016/09/27/Hadoop2-0Installation/</url>
       <content type="html"><![CDATA[<h2 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h2><p>安装Hadoop及HBase,以初步学习理解Hadoop基cu架构与常用</p>
@@ -15,37 +39,74 @@
       <title><![CDATA[地址储存与解析]]></title>
       <url>https://alexandertolstoy.github.io/2016/09/26/%E5%9C%B0%E5%9D%80%E5%82%A8%E5%AD%98%E4%B8%8E%E8%A7%A3%E6%9E%90/</url>
       <content type="html"><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>由数据源汇总过来的各种地址数据需要规范格式,统一并解析实际指代地理位置.由于政府人口信息中,地址采集既有常用的地址汉字字符串如:’浙江省杭州市’,又有为了统计分析方便储存的地址编码如邮政编码:721300,如行政区划330100.这为我们理解数据提取有效地址信息提出了严峻的考验  </p>
+<a id="more"></a>
+<h2 id="问题与参考"><a href="#问题与参考" class="headerlink" title="问题与参考"></a>问题与参考</h2><h3 id="Question"><a href="#Question" class="headerlink" title="Question"></a>Question</h3><ol>
+<li>能够标记地址的方法有很多,最合理的,应该是地理坐标(地球地理坐标系),也就是通常的GIS(地理信息系统).</li>
+<li>以我们现有能力,无法用地理坐标作为地址的key(没能力独立开发GIS,也没相关的GIS接口可以调用),取代方案能想到的如:行政区划编码,邮政编码,电话电信区域编码等,或者私有地理信息标记方案(如大型企业市场区域规划,某学科组织特有地理标记体系).</li>
+<li>在我已知的几种编码里,决定采用行政区划编码,这个是比较合理的,它是国家公用标准,我们可以获取,最主要的,我们做人口库,人的主键是身份证,而身份证前6位也是行政区域编码.</li>
+<li>行政区划会不停的改变,所以标准是有版本的,而身份证号码是不会变的,新旧版本之间同一个地方,新旧不同的编码映射关系,这个需要我们处理.</li>
+<li>即使是行政区域编码,在不同的业务系统中,依据实际情况会有所不同,比如在社保业务中,外来人口标注缴纳区域即不能用当前区域编码(因为没有户口),也不能用户籍/身份证标注区域编码(因为人员驻地不在身份证/户籍地).所以出现了如 330199此类编码(浙江省,杭州市,不定具体某个区域,对外来人口只需标注缴纳区域)</li>
+<li>地址源数据的多样性<ol>
+<li>浙江省杭州市西湖区古荡街道益乐新村北区53号104室</li>
+<li>杭州市益乐新村北区53号104室</li>
+<li>浙江杭州益乐新村53号</li>
+<li>310012 (邮编)</li>
+<li>330106007007 (统计用行政区划编码)</li>
+<li>330106 (浙江省杭州市西湖区 县级以上及县级行政区划编码)</li>
+<li>益乐新村53号<br>~都是指代同一个地址,或同一个地址不同层级,但在物理意义(字符串)上是完全不同的值~</li>
+</ol>
+</li>
+</ol>
+<h3 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h3><ol>
+<li>GB/T 2260-2007 中华人民共和国行政区划代码<ol>
+<li>最新实施版本2007</li>
+<li>由民政部主编</li>
+<li>民政部最新版本 201607</li>
+<li><a href="http://www.mca.gov.cn/article/sj/tjbz/a/2016/20160707/2016071014.html" target="_blank" rel="external">民政部行政区划代码</a>  </li>
+<li><a href="http://www.mohrss.gov.cn/SYrlzyhshbzb/zhuanti/jinbaogongcheng/jbgcshouyexiazaizhuanqu/201608/t20160826_246072.html" target="_blank" rel="external">人社部行政区划代码</a></li>
+</ol>
+</li>
+<li>GB/T 10114-2003      县级以下行政区划代码编制规则<ol>
+<li>最新版本2003</li>
+<li>也由民政部主编</li>
+<li><a href="http://www.mca.gov.cn/article/sj/tjbz/a/2016/" target="_blank" rel="external">民政部官方网站每月公示县以下行政区划代码变更情况</a>  </li>
+<li><a href="http://www.mca.gov.cn/article/sj/tjbz/a/2016/" target="_blank" rel="external">国家统计局统计用区划和城乡区划代码</a></li>
+</ol>
+</li>
+<li><a href="http://www.sac.gov.cn/" target="_blank" rel="external">中国国家标准化管理委员会</a></li>
+<li>ISO 3166-1 <a href="baike.baidu.com/link?url=vxBclgQfib-kjzmauz-gFGgfHmQxp0hs2mF7rWo8iTjw7UWx2KYpW4SJQrpc932Nbo8QLj9Y-HYFkewtxuhPGRmVe3tIGUcRq8dK9yFFN3K">国家地区编码</a></li>
+</ol>
 <h2 id="整体解决方案简述"><a href="#整体解决方案简述" class="headerlink" title="整体解决方案简述"></a>整体解决方案简述</h2><h3 id="储存"><a href="#储存" class="headerlink" title="储存"></a>储存</h3><table>
 <thead>
 <tr>
 <th>国家地区</th>
-<th></th>
+<th style="text-align:left"></th>
 <th>国内地址</th>
-<th></th>
-<th>辅助详细地址</th>
+<th style="text-align:left"></th>
+<th style="text-align:left">辅助详细地址</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>国家编码</td>
-<td>国家名称</td>
+<td style="text-align:left">国家名称</td>
 <td>统一编码</td>
-<td>标准地址</td>
-<td>详细地址</td>
+<td style="text-align:left">标准地址</td>
+<td style="text-align:left">详细地址</td>
 </tr>
 <tr>
 <td>156</td>
-<td>中国大陆</td>
+<td style="text-align:left">中国大陆</td>
 <td>330101001001</td>
-<td>浙江省-杭州市-西湖区-古荡街道-嘉绿社区委员会</td>
-<td>嘉绿西苑</td>
+<td style="text-align:left">浙江省-杭州市-西湖区-古荡街道-嘉绿社区委员会</td>
+<td style="text-align:left">嘉绿西苑</td>
 </tr>
 <tr>
 <td></td>
-<td></td>
+<td style="text-align:left"></td>
 <td>610321003007</td>
-<td>陕西省-宝鸡市-陈仓区-千渭街道-屈家村村委会</td>
-<td>二组121号</td>
+<td style="text-align:left">陕西省-宝鸡市-陈仓区-千渭街道-屈家村村委会</td>
+<td style="text-align:left">二组121号</td>
 </tr>
 </tbody>
 </table>
@@ -64,7 +125,6 @@
 </tbody>
 </table>
 <hr>
-<a id="more"></a>
 <h2 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h2><h3 id="伪代码"><a href="#伪代码" class="headerlink" title="伪代码"></a>伪代码</h3><p>  == 数据集行长约100Byte 约100万行记录 ==</p>
 <ol>
 <li>一次遍历读取RS放到Java Set中关闭jdbc会话,然后在慢慢处理  </li>
@@ -79,13 +139,17 @@
       <title><![CDATA[Hello World]]></title>
       <url>https://alexandertolstoy.github.io/2016/09/26/hello-world/</url>
       <content type="html"><![CDATA[<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">if</span>(you.toChange(someOne)) &#123;</div><div class="line">	<span class="keyword">try</span> &#123;</div><div class="line">    	you.love(someOne);</div><div class="line">    &#125; <span class="keyword">catch</span> (Exception e) &#123;</div><div class="line">    	you.leave(someOne);</div><div class="line">    &#125; <span class="keyword">finally</span> &#123;</div><div class="line">    	you.upgrage();</div><div class="line">    &#125;</div><div class="line">&#125; <span class="keyword">else</span> &#123;</div><div class="line">	you.goodChoice();</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-<a id="more"></a>]]></content>
+<a id="more"></a>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">Person theOne = whichone.doClike(more);</div><div class="line"><span class="keyword">if</span>(theOne.getName().equals(<span class="string">"胡不归"</span>)) &#123;</div><div class="line">	Tolstoy.sayTo(theOne,<span class="string">"Thank you"</span>);</div><div class="line">    Tolstoy.sing(<span class="string">"春风再美也比不上你的笑,没见过你的人不会明了"</span>);</div><div class="line">    Tolstoy.askTo(theOne,<span class="string">"是否太晚?"</span>);</div><div class="line">&#125; <span class="keyword">else</span> &#123;</div><div class="line">    theOne.forget(<span class="keyword">this</span>.Page);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+]]></content>
     </entry>
     
     <entry>
       <title><![CDATA[TODO]]></title>
       <url>https://alexandertolstoy.github.io/2016/09/26/TODO/</url>
       <content type="html"><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>此文档旨在记录任务与念头,以及临时工作笔记等</p>
+<h2 id="Last"><a href="#Last" class="headerlink" title="Last"></a>Last</h2><h3 id="Python-爬虫"><a href="#Python-爬虫" class="headerlink" title="Python 爬虫"></a>Python 爬虫</h3><p>type: P<br>ST: 2016-09-28<br>ET: …<br>level: N<br>status: 2016-09-28 配置环境<br>content:<br><a href="http://blog.csdn.net/column/details/why-bug.html" target="_blank" rel="external">Python爬虫入门</a></p>
+<a id="more"></a>
 <h2 id="格式"><a href="#格式" class="headerlink" title="格式"></a>格式</h2><ol>
 <li>任务主题或关键字</li>
 <li>类型<ol>
@@ -111,8 +175,7 @@
 </li>
 <li>内容</li>
 </ol>
-<a id="more"></a>
-<h2 id="List"><a href="#List" class="headerlink" title="List"></a>List</h2><p>main:  github博客分类(categories)及标签(tags)<br>type:  N<br>ST: 2016-09-26<br>ET: …<br>level: W<br>status: 2016-09-26 第一次编写<br>content:  </p>
+<h2 id="List"><a href="#List" class="headerlink" title="List"></a>List</h2><h3 id="github博客分类-categories-及标签-tags"><a href="#github博客分类-categories-及标签-tags" class="headerlink" title="github博客分类(categories)及标签(tags)"></a>github博客分类(categories)及标签(tags)</h3><p>type:  N<br>ST: 2016-09-26<br>ET: …<br>level: W<br>status: 2016-09-26 第一次编写<br>content:  </p>
 <table>
 <thead>
 <tr>

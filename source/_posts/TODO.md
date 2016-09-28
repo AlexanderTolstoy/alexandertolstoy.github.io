@@ -14,6 +14,20 @@ tags:
 ## 说明 ##
 此文档旨在记录任务与念头,以及临时工作笔记等
 
+## Last ##
+
+### Python 爬虫 ###
+type: P
+ST: 2016-09-28
+ET: ...
+level: N
+status: 2016-09-28 配置环境
+content:
+[Python爬虫入门](http://blog.csdn.net/column/details/why-bug.html)
+
+
+<!-- more -->
+
 ## 格式 ##
 1. 任务主题或关键字
 2. 类型
@@ -34,12 +48,10 @@ tags:
 6. 内容
 
 
-<!-- more -->
-
-
 ## List ##
 
-main:  github博客分类(categories)及标签(tags)
+
+###   github博客分类(categories)及标签(tags)  ###
 type:  N  
 ST: 2016-09-26
 ET: ...

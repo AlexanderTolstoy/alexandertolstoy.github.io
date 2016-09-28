@@ -15,12 +15,16 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="On my own">
-<meta property="og:url" content="https://alexandertolstoy.github.io/tags/Memorandum/index.html">
+<meta name="description" content="说明在linux中安装python3,并且配置python3开发环境">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Install and configure the Python ENV on RHEL6.5">
+<meta property="og:url" content="https://alexandertolstoy.github.io/2016/09/28/SetupPythonENV/index.html">
 <meta property="og:site_name" content="On my own">
+<meta property="og:description" content="说明在linux中安装python3,并且配置python3开发环境">
+<meta property="og:updated_time" content="2016-09-28T15:22:44.556Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="On my own">
+<meta name="twitter:title" content="Install and configure the Python ENV on RHEL6.5">
+<meta name="twitter:description" content="说明在linux中安装python3,并且配置python3开发环境">
 
 <link rel="apple-touch-icon" href= "/apple-touch-icon.png">
 
@@ -52,7 +56,7 @@
 <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 
-<title>Tag: Memorandum | On my own</title>
+<title>Install and configure the Python ENV on RHEL6.5 | On my own</title>
 
 <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
@@ -62,9 +66,9 @@
         fancybox: true,
         animate: true,
         isHome: false,
-        isPost: false,
+        isPost: true,
         isArchive: false,
-        isTag: true,
+        isTag: false,
         isCategory: false,
         fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
         scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
@@ -277,60 +281,207 @@
     </div>
     <link class="menu-list" tags="標籤" friends="友情鏈接" about="關於我"/>
 </nav>
-      <div class="body-wrap">
+      <div class="body-wrap"><article id="post-SetupPythonENV" class="article article-type-post" itemscope itemprop="blogPost">
   
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2016" class="archive-year">2016</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-          <div class="article-meta">
-              <a href="/2016/09/26/TODO/" class="archive-article-date">
-      <time datetime="2016-09-26T08:22:02.000Z" itemprop="datePublished">09-26</time>
+    <div class="article-meta">
+      <a href="/2016/09/28/SetupPythonENV/" class="article-date">
+      <time datetime="2016-09-28T15:17:07.429Z" itemprop="datePublished">2016-09-28</time>
 </a>
 
 
-        </div>
-         
+    </div>
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2016/09/26/TODO/">TODO</a>
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Install and configure the Python ENV on RHEL6.5
     </h1>
   
 
-        <div class="article-info info-on-archive">
-          
+      </header>
+      
+      <div class="article-info article-info-post">
+        
     <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/一时兴起/">一时兴起</a>
+    <a class="article-category-link" href="/categories/Language/">Language</a><a class="article-category-link" href="/categories/Language/OS/">OS</a>
     </div>
 
 
-          
+        
     <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Memorandum/">Memorandum</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/NOTE/">NOTE</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/TEMP/">TEMP</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/躬行/">躬行</a></li></ul>
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Eclipse/">Eclipse</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Installation/">Installation</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Python/">Python</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/RHEL/">RHEL</a></li></ul>
     </div>
 
-        </div>
         <div class="clearfix"></div>
-    </header>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>在linux中安装python3,并且配置python3开发环境</p>
+<a id="more"></a>
+<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ol>
+<li><a href="https://www.python.org/" target="_blank" rel="external">Python官方网站</a></li>
+<li><a href="https://docs.python.org/3/" target="_blank" rel="external">Python Documents 3.0</a></li>
+<li><a href="http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000" target="_blank" rel="external">廖雪峰Python 教程</a></li>
+<li><a href="http://www.tuicool.com/articles/j2ueiir" target="_blank" rel="external">Linux6.4 安装Python3.5,pip,setuptools</a></li>
+<li><a href="https://pypi.python.org/pypi/setuptools#unix-including-mac-os-x-curl" target="_blank" rel="external">setuptools 28 Installation</a></li>
+<li><a href="https://pypi.python.org/pypi/pip/8.1.2" target="_blank" rel="external">pip 8.1.2 Installation</a></li>
+</ol>
+<h2 id="安装包及下载链接"><a href="#安装包及下载链接" class="headerlink" title="安装包及下载链接"></a>安装包及下载链接</h2><ol>
+<li><a href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/R/eclipse-cpp-neon-R-linux-gtk-x86_64.tar.gz&amp;mirror_id=448" target="_blank" rel="external">eclipse IDE for C/C++ Developers(linux_x64)</a></li>
+<li><a href="https://www.python.org/ftp/python/3.5.2/Python-3.5.2.tgz" target="_blank" rel="external">python3.5.2_tgz</a></li>
+<li><a href="https://pypi.python.org/packages/f7/94/eee867605a99ac113c4108534ad7c292ed48bf1d06dfe7b63daa51e49987/setuptools-28.0.0.tar.gz#md5=9b23df90e1510c7353a5cf07873dcd22" target="_blank" rel="external">setuptools-28.0.0.tar.gz</a></li>
+<li><a href="https://www.python.org/downloads/source/" target="_blank" rel="external">Python Source Download</a></li>
+<li><a href="https://pypi.python.org/packages/e7/a8/7556133689add8d1a54c0b14aeff0acb03c64707ce100ecd53934da1aa13/pip-8.1.2.tar.gz#md5=87083c0b9867963b29f7aba3613e8f4a" target="_blank" rel="external">pip-8.1.2.tar.gz</a></li>
+<li></li>
+</ol>
+<h2 id="安装与配置"><a href="#安装与配置" class="headerlink" title="安装与配置"></a>安装与配置</h2><h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><h3 id="安装日志"><a href="#安装日志" class="headerlink" title="安装日志"></a>安装日志</h3>
+      
+    </div>
+    
   </div>
+  
+    
+    <div class="copyright">
+        <p><span>本文標題:</span><a href="/2016/09/28/SetupPythonENV/">Install and configure the Python ENV on RHEL6.5</a></p>
+        <p><span>文章作者:</span><a href="/" title="回到主頁">屈子虚</a></p>
+        <p><span>發布時間:</span>2016-09-28, 23:17:07</p>
+        <p><span>最後更新:</span>2016-09-28, 23:22:44</p>
+        <p>
+            <span>原始鏈接:</span><a class="post-url" href="/2016/09/28/SetupPythonENV/" title="Install and configure the Python ENV on RHEL6.5">https://alexandertolstoy.github.io/2016/09/28/SetupPythonENV/</a>
+            <span class="copy-path" data-clipboard-text="原文: https://alexandertolstoy.github.io/2016/09/28/SetupPythonENV/　　作者: 屈子虚" title="點擊複製文章鏈接"><i class="fa fa-clipboard"></i></span>
+            <script> var clipboard = new Clipboard('.copy-path'); </script>
+        </p>
+        <p>
+            <span>許可協議:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target = "_blank">"姓名標示-非商業性-相同方式分享 4.0 國際"</a> 轉載請保留原文鏈接及作者。
+        </p>
+    </div>
+
+
+
+    <nav id="article-nav">
+        
+        
+            <div id="article-nav-older" class="article-nav-title">
+                <a href="/2016/09/27/Hadoop2-0Installation/">
+                    Hadoop2.0Installation
+                </a>
+            </div>
+        
+    </nav>
+
+  
 </article>
-  
-  
-    </div></section>
-  
+
+    <div id="toc" class="toc-article">
+        <strong class="toc-title">文章目錄</strong>
+        
+            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#说明"><span class="toc-number">1.</span> <span class="toc-text">说明</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#参考文献"><span class="toc-number">2.</span> <span class="toc-text">参考文献</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装包及下载链接"><span class="toc-number">3.</span> <span class="toc-text">安装包及下载链接</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装与配置"><span class="toc-number">4.</span> <span class="toc-text">安装与配置</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#流程"><span class="toc-number">4.1.</span> <span class="toc-text">流程</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装日志"><span class="toc-number">4.2.</span> <span class="toc-text">安装日志</span></a></li></ol></li></ol>
+        
+    </div>
+    <style>
+        .left-col .switch-btn,
+        .left-col .switch-area {
+            display: none;
+        }
+        .toc-level-6 i,
+        .toc-level-6 ol {
+            display: none !important;
+        }
+    </style>
+
+    <input type="button" id="tocButton" value="隱藏目錄"  title="點擊按鈕隱藏或者顯示文章目錄">
+
+    <script>
+        yiliaConfig.toc = ["隱藏目錄", "顯示目錄", !!"false"];
+    </script>
+
+
+
+    
+<div class="share">
+    
+        <div class="bdsharebuttonbox">
+            <a href="#" class="fa fa-twitter bds_twi" data-cmd="twi" title="分享到推特"></a>
+            <a href="#" class="fa fa-weibo bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+            <a href="#" class="fa fa-qq bds_sqq" data-cmd="sqq" title="分享给 QQ 好友"></a>
+            <a href="#" class="fa fa-files-o bds_copy" data-cmd="copy" title="复制网址"></a>
+            <a href="#" class="fa fa fa-envelope-o bds_mail" data-cmd="mail" title="通过邮件分享"></a>
+            <a href="#" class="fa fa-weixin bds_weixin" data-cmd="weixin" title="生成文章二维码"></a>
+            <a href="#" class="fa fa-share-alt bds_more" data-cmd="more"></i></a>
+        </div>
+        <script>
+            window._bd_share_config={
+                "common":{"bdSnsKey":{},"bdText":"Install and configure the Python ENV on RHEL6.5　| On my own　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+        </script>
+    
+
+    
+</div>
+
+
+
+
+
+
+
+    
+        <section id="comments">
+    <style> aside.comment-bar { margin: auto 30px; }</style>
+    <div id="disqus_thread"></div>
+    <script>
+        var disqus_config = function(){
+            this.page.url = 'https://alexandertolstoy.github.io/2016/09/28/SetupPythonENV/';
+            this.page.identifier = '2016/09/28/SetupPythonENV/';
+        };
+        var loadComment = function(){
+            var d = document, s = d.createElement('script');
+            s.src = '//null.disqus.com/embed.js';
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        }
+    </script>
+    
+    <script> loadComment(); </script>
+
+</section>
+
 
     
 
+
+
+
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/" title="回到主頁"><i class="fa fa-home"></i></a>
+        
+
+        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+
+        
+            <a href="/2016/09/27/Hadoop2-0Installation/" title="下一篇: Hadoop2.0Installation">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
+    </div>
+
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/09/28/SetupPythonENV/">Install and configure the Python ENV on RHEL6.5</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/09/27/Hadoop2-0Installation/">Hadoop2.0Installation</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/09/26/地址储存与解析/">地址储存与解析</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/09/26/hello-world/">Hello World</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/09/26/TODO/">TODO</a></li></ul>
+
+
+
+
+    <script>
+        
+    </script>
 </div>
       <footer id="footer">
     <div class="outer">
