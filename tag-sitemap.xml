@@ -37,6 +37,13 @@
     </url>
 
     <url>
+        <loc>https://alexandertolstoy.github.io/tags/Installation/</loc>
+        <lastmod>2016-09-28T15:22:44.556Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://alexandertolstoy.github.io/tags/Python/</loc>
         <lastmod>2016-09-28T15:22:44.556Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -52,13 +59,6 @@
 
     <url>
         <loc>https://alexandertolstoy.github.io/tags/RHEL/</loc>
-        <lastmod>2016-09-28T15:22:44.556Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://alexandertolstoy.github.io/tags/Installation/</loc>
         <lastmod>2016-09-28T15:22:44.556Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
