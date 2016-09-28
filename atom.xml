@@ -53,13 +53,13 @@
       <category term="OS" scheme="https://alexandertolstoy.github.io/categories/Language/OS/"/>
     
     
-      <category term="Installation" scheme="https://alexandertolstoy.github.io/tags/Installation/"/>
-    
       <category term="Python" scheme="https://alexandertolstoy.github.io/tags/Python/"/>
     
       <category term="Eclipse" scheme="https://alexandertolstoy.github.io/tags/Eclipse/"/>
     
       <category term="RHEL" scheme="https://alexandertolstoy.github.io/tags/RHEL/"/>
+    
+      <category term="Installation" scheme="https://alexandertolstoy.github.io/tags/Installation/"/>
     
   </entry>
   
@@ -218,11 +218,11 @@
     <link href="https://alexandertolstoy.github.io/2016/09/26/hello-world/"/>
     <id>https://alexandertolstoy.github.io/2016/09/26/hello-world/</id>
     <published>2016-09-26T14:13:02.342Z</published>
-    <updated>2016-09-28T15:53:38.303Z</updated>
+    <updated>2016-09-28T16:00:11.738Z</updated>
     
     <content type="html"><![CDATA[<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">if</span>(you.toChange(someOne)) &#123;</div><div class="line">	<span class="keyword">try</span> &#123;</div><div class="line">    	you.love(someOne);</div><div class="line">    &#125; <span class="keyword">catch</span> (Exception e) &#123;</div><div class="line">    	you.leave(someOne);</div><div class="line">    &#125; <span class="keyword">finally</span> &#123;</div><div class="line">    	you.upgrage();</div><div class="line">    &#125;</div><div class="line">&#125; <span class="keyword">else</span> &#123;</div><div class="line">	you.goodChoice();</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 <a id="more"></a>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">Person theOne = whichone.doClike(more);</div><div class="line"><span class="keyword">if</span>(theOne.getName().equals(<span class="string">"胡不归"</span>)) &#123;</div><div class="line">	Tolstoy.sayTo(theOne,<span class="string">"Thank you"</span>);</div><div class="line">    Tolstoy.sing(<span class="string">"春风再美也比不上你的笑,没见过你的人不会明了"</span>);</div><div class="line">    Tolstoy.askTo(theOne,<span class="string">"是否太晚?"</span>);</div><div class="line">&#125; <span class="keyword">else</span> &#123;</div><div class="line">    theOne.forget(<span class="keyword">this</span>.Page);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">Person theOne = whichOne.doClike(<span class="string">"more/全文"</span>);</div><div class="line"><span class="keyword">if</span>(theOne.getName().equals(<span class="string">"胡不归"</span>)) &#123;</div><div class="line">	Tolstoy.sayTo(theOne,<span class="string">"Thank you"</span>);</div><div class="line">    Tolstoy.sing(<span class="string">"春风再美也比不上你的笑,没见过你的人不会明了"</span>);</div><div class="line">    Tolstoy.askTo(theOne,<span class="string">"是否太晚?"</span>);</div><div class="line">&#125; <span class="keyword">else</span> &#123;</div><div class="line">    theOne.forget(<span class="keyword">this</span>.Page);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 ]]></content>
     
     <summary type="html">
@@ -231,21 +231,9 @@
     
     </summary>
     
-      <category term="OS" scheme="https://alexandertolstoy.github.io/categories/OS/"/>
+      <category term="Programer" scheme="https://alexandertolstoy.github.io/categories/Programer/"/>
     
-      <category term="Language" scheme="https://alexandertolstoy.github.io/categories/OS/Language/"/>
-    
-      <category term="Database" scheme="https://alexandertolstoy.github.io/categories/OS/Language/Database/"/>
-    
-      <category term="DW/BI" scheme="https://alexandertolstoy.github.io/categories/OS/Language/Database/DW-BI/"/>
-    
-      <category term="BigData" scheme="https://alexandertolstoy.github.io/categories/OS/Language/Database/DW-BI/BigData/"/>
-    
-      <category term="Work" scheme="https://alexandertolstoy.github.io/categories/OS/Language/Database/DW-BI/BigData/Work/"/>
-    
-      <category term="Live" scheme="https://alexandertolstoy.github.io/categories/OS/Language/Database/DW-BI/BigData/Work/Live/"/>
-    
-      <category term="Reference" scheme="https://alexandertolstoy.github.io/categories/OS/Language/Database/DW-BI/BigData/Work/Live/Reference/"/>
+      <category term="Live" scheme="https://alexandertolstoy.github.io/categories/Programer/Live/"/>
     
     
       <category term="Hello World" scheme="https://alexandertolstoy.github.io/tags/Hello-World/"/>

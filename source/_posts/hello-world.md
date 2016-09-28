@@ -1,14 +1,8 @@
 ---
 title: Hello World
 categories: 
-- OS  
-- Language  
-- Database  
-- DW/BI  
-- BigData  
-- Work  
-- Live  
-- Reference
+- Programer
+- Live 
 tags: 
 - Hello World  
 - Init  
@@ -32,7 +26,7 @@ if(you.toChange(someOne)) {
 
 ```java
 
-Person theOne = whichone.doClike(more);
+Person theOne = whichOne.doClike("more/全文");
 if(theOne.getName().equals("胡不归")) {
 	Tolstoy.sayTo(theOne,"Thank you");
     Tolstoy.sing("春风再美也比不上你的笑,没见过你的人不会明了");

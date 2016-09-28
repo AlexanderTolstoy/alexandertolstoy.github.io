@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://alexandertolstoy.github.io/2016/09/26/hello-world/</loc>
-    <lastmod>2016-09-28T15:53:38.303Z</lastmod>
+    <lastmod>2016-09-28T16:00:11.738Z</lastmod>
     <data>
         <display>
         <title>Hello World</title>
@@ -18,19 +18,11 @@
          
            
              
-              <breadCrumb title="OS" url="https://alexandertolstoy.github.io/categories/OS/"/>
+              <breadCrumb title="Programer" url="https://alexandertolstoy.github.io/categories/Programer/"/>
           
              
-              <breadCrumb title="Language" url="https://alexandertolstoy.github.io/categories/OS/Language/"/>
+              <breadCrumb title="Live" url="https://alexandertolstoy.github.io/categories/Programer/Live/"/>
           
-             
-              <breadCrumb title="Database" url="https://alexandertolstoy.github.io/categories/OS/Language/Database/"/>
-          
-             
-             
-             
-             
-             
         </display>
     </data>
     </url>
@@ -70,13 +62,13 @@
         <title>Install and configure the Python ENV on RHEL6.5</title>
         <pubTime>2016-09-28T15:17:07.429Z</pubTime>
         
-        <tag>Installation</tag>
-         
         <tag>Python</tag>
          
         <tag>Eclipse</tag>
          
         <tag>RHEL</tag>
+         
+        <tag>Installation</tag>
          
          
            
