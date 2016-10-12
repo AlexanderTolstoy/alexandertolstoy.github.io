@@ -2,106 +2,106 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
+        <loc>https://alexandertolstoy.github.io/tags/Installation/</loc>
+        <lastmod>2016-10-11T00:11:13.912Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
         <loc>https://alexandertolstoy.github.io/tags/Hadoop/</loc>
-        <lastmod>2016-09-28T11:17:00.534Z</lastmod>
+        <lastmod>2016-10-11T00:11:13.912Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://alexandertolstoy.github.io/tags/HBase/</loc>
-        <lastmod>2016-09-28T11:17:00.534Z</lastmod>
+        <lastmod>2016-10-11T00:11:13.912Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://alexandertolstoy.github.io/tags/ZooKeeper/</loc>
-        <lastmod>2016-09-28T11:17:00.534Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://alexandertolstoy.github.io/tags/%E8%A1%8C%E6%94%BF%E5%8C%BA%E5%88%92%E7%BC%96%E7%A0%81/</loc>
-        <lastmod>2016-09-28T11:17:00.534Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://alexandertolstoy.github.io/tags/%E5%9C%B0%E5%9D%80%E8%A7%A3%E6%9E%90/</loc>
-        <lastmod>2016-09-28T11:17:00.534Z</lastmod>
-        <changefreq>weekly</changefreq>
-        <priority>0.2</priority>
-    </url>
-
-    <url>
-        <loc>https://alexandertolstoy.github.io/tags/Installation/</loc>
-        <lastmod>2016-09-28T15:22:44.556Z</lastmod>
+        <lastmod>2016-10-11T00:11:13.912Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://alexandertolstoy.github.io/tags/Python/</loc>
-        <lastmod>2016-09-28T15:22:44.556Z</lastmod>
+        <lastmod>2016-10-11T00:11:13.912Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://alexandertolstoy.github.io/tags/Eclipse/</loc>
-        <lastmod>2016-09-28T15:22:44.556Z</lastmod>
+        <lastmod>2016-10-11T00:11:13.912Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://alexandertolstoy.github.io/tags/RHEL/</loc>
-        <lastmod>2016-09-28T15:22:44.556Z</lastmod>
+        <lastmod>2016-10-11T00:11:13.912Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://alexandertolstoy.github.io/tags/TEMP/</loc>
-        <lastmod>2016-09-28T15:24:27.736Z</lastmod>
+        <lastmod>2016-10-11T00:11:13.912Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://alexandertolstoy.github.io/tags/NOTE/</loc>
-        <lastmod>2016-09-28T15:24:27.736Z</lastmod>
+        <lastmod>2016-10-11T00:11:13.912Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://alexandertolstoy.github.io/tags/Memorandum/</loc>
-        <lastmod>2016-09-28T15:24:27.736Z</lastmod>
+        <lastmod>2016-10-11T00:11:13.912Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://alexandertolstoy.github.io/tags/%E8%BA%AC%E8%A1%8C/</loc>
-        <lastmod>2016-09-28T15:24:27.736Z</lastmod>
+        <lastmod>2016-10-11T00:11:13.912Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://alexandertolstoy.github.io/tags/Hello-World/</loc>
-        <lastmod>2016-09-28T16:00:11.738Z</lastmod>
+        <lastmod>2016-10-11T00:19:50.747Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://alexandertolstoy.github.io/tags/Init/</loc>
-        <lastmod>2016-09-28T16:00:11.738Z</lastmod>
+        <lastmod>2016-10-11T00:19:50.747Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://alexandertolstoy.github.io/tags/%E8%A1%8C%E6%94%BF%E5%8C%BA%E5%88%92%E7%BC%96%E7%A0%81/</loc>
+        <lastmod>2016-10-12T12:33:01.431Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.2</priority>
+    </url>
+
+    <url>
+        <loc>https://alexandertolstoy.github.io/tags/%E5%9C%B0%E5%9D%80%E8%A7%A3%E6%9E%90/</loc>
+        <lastmod>2016-10-12T12:33:01.431Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>

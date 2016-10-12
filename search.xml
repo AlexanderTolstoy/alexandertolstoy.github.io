@@ -4,40 +4,8 @@
   
     
     <entry>
-      <title><![CDATA[Install and configure the Python ENV on RHEL6.5]]></title>
-      <url>https://alexandertolstoy.github.io/2016/09/28/SetupPythonENV/</url>
-      <content type="html"><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>在linux中安装python3,并且配置python3开发环境</p>
-<a id="more"></a>
-<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ol>
-<li><a href="https://www.python.org/" target="_blank" rel="external">Python官方网站</a></li>
-<li><a href="https://docs.python.org/3/" target="_blank" rel="external">Python Documents 3.0</a></li>
-<li><a href="http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000" target="_blank" rel="external">廖雪峰Python 教程</a></li>
-<li><a href="http://www.tuicool.com/articles/j2ueiir" target="_blank" rel="external">Linux6.4 安装Python3.5,pip,setuptools</a></li>
-<li><a href="https://pypi.python.org/pypi/setuptools#unix-including-mac-os-x-curl" target="_blank" rel="external">setuptools 28 Installation</a></li>
-<li><a href="https://pypi.python.org/pypi/pip/8.1.2" target="_blank" rel="external">pip 8.1.2 Installation</a></li>
-</ol>
-<h2 id="安装包及下载链接"><a href="#安装包及下载链接" class="headerlink" title="安装包及下载链接"></a>安装包及下载链接</h2><ol>
-<li><a href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/R/eclipse-cpp-neon-R-linux-gtk-x86_64.tar.gz&amp;mirror_id=448" target="_blank" rel="external">eclipse IDE for C/C++ Developers(linux_x64)</a></li>
-<li><a href="https://www.python.org/ftp/python/3.5.2/Python-3.5.2.tgz" target="_blank" rel="external">python3.5.2_tgz</a></li>
-<li><a href="https://pypi.python.org/packages/f7/94/eee867605a99ac113c4108534ad7c292ed48bf1d06dfe7b63daa51e49987/setuptools-28.0.0.tar.gz#md5=9b23df90e1510c7353a5cf07873dcd22" target="_blank" rel="external">setuptools-28.0.0.tar.gz</a></li>
-<li><a href="https://www.python.org/downloads/source/" target="_blank" rel="external">Python Source Download</a></li>
-<li><a href="https://pypi.python.org/packages/e7/a8/7556133689add8d1a54c0b14aeff0acb03c64707ce100ecd53934da1aa13/pip-8.1.2.tar.gz#md5=87083c0b9867963b29f7aba3613e8f4a" target="_blank" rel="external">pip-8.1.2.tar.gz</a></li>
-<li></li>
-</ol>
-<h2 id="安装与配置"><a href="#安装与配置" class="headerlink" title="安装与配置"></a>安装与配置</h2><h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><h3 id="安装日志"><a href="#安装日志" class="headerlink" title="安装日志"></a>安装日志</h3>]]></content>
-    </entry>
-    
-    <entry>
-      <title><![CDATA[Hadoop2.0Installation]]></title>
-      <url>https://alexandertolstoy.github.io/2016/09/27/Hadoop2-0Installation/</url>
-      <content type="html"><![CDATA[<h2 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h2><p>安装Hadoop及HBase,以初步学习理解Hadoop基cu架构与常用</p>
-<a id="more"></a>
-<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><h2 id="实施"><a href="#实施" class="headerlink" title="实施"></a>实施</h2>]]></content>
-    </entry>
-    
-    <entry>
       <title><![CDATA[地址储存与解析]]></title>
-      <url>https://alexandertolstoy.github.io/2016/09/26/%E5%9C%B0%E5%9D%80%E5%82%A8%E5%AD%98%E4%B8%8E%E8%A7%A3%E6%9E%90/</url>
+      <url>https://alexandertolstoy.github.io/2016/10/11/%E5%9C%B0%E5%9D%80%E5%82%A8%E5%AD%98%E4%B8%8E%E8%A7%A3%E6%9E%90/</url>
       <content type="html"><![CDATA[<h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>由数据源汇总过来的各种地址数据需要规范格式,统一并解析实际指代地理位置.由于政府人口信息中,地址采集既有常用的地址汉字字符串如:’浙江省杭州市’,又有为了统计分析方便储存的地址编码如邮政编码:721300,如行政区划330100.这为我们理解数据提取有效地址信息提出了严峻的考验  </p>
 <a id="more"></a>
 <h2 id="问题与参考"><a href="#问题与参考" class="headerlink" title="问题与参考"></a>问题与参考</h2><h3 id="Question"><a href="#Question" class="headerlink" title="Question"></a>Question</h3><ol>
@@ -125,7 +93,9 @@
 </tbody>
 </table>
 <hr>
-<h2 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h2><h3 id="伪代码"><a href="#伪代码" class="headerlink" title="伪代码"></a>伪代码</h3><p>  == 数据集行长约100Byte 约100万行记录 ==</p>
+<h3 id="地址处理流程图1-0"><a href="#地址处理流程图1-0" class="headerlink" title="地址处理流程图1.0"></a>地址处理流程图1.0</h3> <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div><div class="line">28</div><div class="line">29</div><div class="line">30</div><div class="line">31</div><div class="line">32</div><div class="line">33</div><div class="line">34</div><div class="line">35</div><div class="line">36</div><div class="line">37</div><div class="line">38</div><div class="line">39</div><div class="line">40</div></pre></td><td class="code"><pre><div class="line">graph TB </div><div class="line">  S(开始) --&gt; D1&#123;汉字/编码&#125; ;</div><div class="line">  D1-- 编码 --&gt;P1[判断包含层级&lt;国家,省,市,县,镇&gt;] ;</div><div class="line">  D1 -- 汉字 --&gt; P2[判断包含层级];</div><div class="line">  P1 -- 国家编码 --&gt; P13[与码表比对匹配];</div><div class="line">  P1 -- 国家以下 --&gt; P14[格式化&lt;如省市县6位后面用0补齐后6位&gt;];</div><div class="line">  P14 --&gt; P13;</div><div class="line">  P13 --&gt; D11&#123;是否成功解析&#125; ;</div><div class="line">  D11 -- 未能解析 --&gt; P15[储存未解析编码]</div><div class="line">  D11 -- 成功解析 --&gt; P16[储存标准编码+标准地址]</div><div class="line">  P15 --&gt; P17[智能解析&lt;人工干预,码表维护&gt;]</div><div class="line">  P15 --&gt;  E(结束)</div><div class="line">  P2 -- 国家 --&gt; P21[解析转换]</div><div class="line">  P21 --&gt; D21&#123;是否成功解析&#125;</div><div class="line">  D21 -- 成功解析 --&gt; P16[储存标准编码+标准地址]</div><div class="line">  D21 -- 未能解析 --&gt; P15</div><div class="line">  P16 --&gt; E</div><div class="line">  P2 -- 国家以下 --&gt; P23[解析省/直辖市/自治区/特别行政区级]</div><div class="line">  P23 --&gt; D22&#123;是否成功解析&#125;</div><div class="line">  D22 -- 是 --&gt; P24[解析市级]</div><div class="line">  D22 -- 否 --&gt; P211[补齐后续编码&lt;12位,未知以0补齐&gt;]</div><div class="line">  P24 --&gt; D23&#123;是否成功解析&#125;</div><div class="line">  D23 -- 是 --&gt; P25[解析县级]</div><div class="line">  D23 -- 否 --&gt; P211[补齐后续编码&lt;12位,未知以0补齐&gt;]</div><div class="line">  P25 --&gt; D24&#123;是否成功解析&#125;</div><div class="line">  D24 -- 是 --&gt; P26[解析乡镇级]</div><div class="line">  D24 -- 否 --&gt; P211[补齐后续编码&lt;12位,未知以0补齐&gt;]</div><div class="line">  P26 --&gt; D25&#123;是否成功解析&#125;</div><div class="line">  D25 -- 是 --&gt; P27[解析村/社区级]</div><div class="line">  D25 -- 否 --&gt; P211[补齐后续编码&lt;12位,未知以0补齐&gt;]</div><div class="line">  P27 --&gt; D26&#123;是否成功解析&#125;</div><div class="line">  D26 -- 是 --&gt; P16</div><div class="line">  D26 -- 是 --&gt; D27&#123;是否有更详细地址&lt;附加地址&gt; &#125;</div><div class="line">  D26 -- 否 --&gt; P211[补齐后续编码&lt;12位,未知以0补齐&gt;]</div><div class="line">  P211 --&gt; P16</div><div class="line">  P211 --&gt; P28[储存原始地址值]</div><div class="line">  D27 -- 有 --&gt; P29[储存附加详细地址]</div><div class="line">  D27 -- 无 --&gt; P28</div><div class="line">  P29 --&gt; E</div><div class="line">  P28 --&gt; E</div></pre></td></tr></table></figure>
+<h3 id="地址比对整合流程图1-0"><a href="#地址比对整合流程图1-0" class="headerlink" title="地址比对整合流程图1.0"></a>地址比对整合流程图1.0</h3> <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line"> </div></pre></td></tr></table></figure>
+<h2 id="详细设计"><a href="#详细设计" class="headerlink" title="详细设计"></a>详细设计</h2><h3 id="数据库表设计"><a href="#数据库表设计" class="headerlink" title="数据库表设计"></a>数据库表设计</h3><h4 id="标准元数据"><a href="#标准元数据" class="headerlink" title="标准元数据"></a>标准元数据</h4><h4 id="处理用字典表"><a href="#处理用字典表" class="headerlink" title="处理用字典表"></a>处理用字典表</h4><h3 id="程序设计与数据整理脚本"><a href="#程序设计与数据整理脚本" class="headerlink" title="程序设计与数据整理脚本"></a>程序设计与数据整理脚本</h3><h4 id="搜集下载地址编码"><a href="#搜集下载地址编码" class="headerlink" title="搜集下载地址编码"></a>搜集下载地址编码</h4><h4 id="数据处理流程图"><a href="#数据处理流程图" class="headerlink" title="数据处理流程图"></a>数据处理流程图</h4><h2 id="代码实现"><a href="#代码实现" class="headerlink" title="代码实现"></a>代码实现</h2><h3 id="伪代码"><a href="#伪代码" class="headerlink" title="伪代码"></a>伪代码</h3><p>  == 数据集行长约100Byte 约100万行记录 ==</p>
 <ol>
 <li>一次遍历读取RS放到Java Set中关闭jdbc会话,然后在慢慢处理  </li>
 <li>遍历RS时 即时处理  </li>
@@ -136,12 +106,44 @@
     </entry>
     
     <entry>
-      <title><![CDATA[Hello World]]></title>
-      <url>https://alexandertolstoy.github.io/2016/09/26/hello-world/</url>
-      <content type="html"><![CDATA[<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">if</span>(you.toChange(someOne)) &#123;</div><div class="line">	<span class="keyword">try</span> &#123;</div><div class="line">    	you.love(someOne);</div><div class="line">    &#125; <span class="keyword">catch</span> (Exception e) &#123;</div><div class="line">    	you.leave(someOne);</div><div class="line">    &#125; <span class="keyword">finally</span> &#123;</div><div class="line">    	you.upgrage();</div><div class="line">    &#125;</div><div class="line">&#125; <span class="keyword">else</span> &#123;</div><div class="line">	you.goodChoice();</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+      <title><![CDATA[Install and configure the Python ENV on RHEL6.5]]></title>
+      <url>https://alexandertolstoy.github.io/2016/10/11/SetupPythonENV/</url>
+      <content type="html"><![CDATA[<h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>在linux中安装python3,并且配置python3开发环境</p>
 <a id="more"></a>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">Person theOne = whichOne.doClike(<span class="string">"more/全文"</span>);</div><div class="line"><span class="keyword">if</span>(theOne.getName().equals(<span class="string">"胡不归"</span>)) &#123;</div><div class="line">	Tolstoy.sayTo(theOne,<span class="string">"Thank you"</span>);</div><div class="line">    Tolstoy.sing(<span class="string">"春风再美也比不上你的笑,没见过你的人不会明了"</span>);</div><div class="line">    Tolstoy.askTo(theOne,<span class="string">"是否太晚?"</span>);</div><div class="line">&#125; <span class="keyword">else</span> &#123;</div><div class="line">    theOne.forget(<span class="keyword">this</span>.Page);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ol>
+<li><a href="https://www.python.org/" target="_blank" rel="external">Python官方网站</a></li>
+<li><a href="https://docs.python.org/3/" target="_blank" rel="external">Python Documents 3.0</a></li>
+<li><a href="http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000" target="_blank" rel="external">廖雪峰Python 教程</a></li>
+<li><a href="http://www.tuicool.com/articles/j2ueiir" target="_blank" rel="external">Linux6.4 安装Python3.5,pip,setuptools</a></li>
+<li><a href="https://pypi.python.org/pypi/setuptools#unix-including-mac-os-x-curl" target="_blank" rel="external">setuptools 28 Installation</a></li>
+<li><a href="https://pypi.python.org/pypi/pip/8.1.2" target="_blank" rel="external">pip 8.1.2 Installation</a></li>
+</ol>
+<h2 id="安装包及下载链接"><a href="#安装包及下载链接" class="headerlink" title="安装包及下载链接"></a>安装包及下载链接</h2><ol>
+<li><a href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/R/eclipse-cpp-neon-R-linux-gtk-x86_64.tar.gz&amp;mirror_id=448" target="_blank" rel="external">eclipse IDE for C/C++ Developers(linux_x64)</a></li>
+<li><a href="https://www.python.org/ftp/python/3.5.2/Python-3.5.2.tgz" target="_blank" rel="external">python3.5.2_tgz</a></li>
+<li><a href="https://pypi.python.org/packages/f7/94/eee867605a99ac113c4108534ad7c292ed48bf1d06dfe7b63daa51e49987/setuptools-28.0.0.tar.gz#md5=9b23df90e1510c7353a5cf07873dcd22" target="_blank" rel="external">setuptools-28.0.0.tar.gz</a></li>
+<li><a href="https://www.python.org/downloads/source/" target="_blank" rel="external">Python Source Download</a></li>
+<li><a href="https://pypi.python.org/packages/e7/a8/7556133689add8d1a54c0b14aeff0acb03c64707ce100ecd53934da1aa13/pip-8.1.2.tar.gz#md5=87083c0b9867963b29f7aba3613e8f4a" target="_blank" rel="external">pip-8.1.2.tar.gz</a></li>
+<li></li>
+</ol>
+<h2 id="安装与配置"><a href="#安装与配置" class="headerlink" title="安装与配置"></a>安装与配置</h2><h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><h3 id="安装日志"><a href="#安装日志" class="headerlink" title="安装日志"></a>安装日志</h3>]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hello World]]></title>
+      <url>https://alexandertolstoy.github.io/2016/10/11/hello-world/</url>
+      <content type="html"><![CDATA[<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">if</span>(you.toChange(someOne)) &#123;</div><div class="line"> <span class="keyword">try</span> &#123;</div><div class="line">    	you.love(someOne);</div><div class="line">    &#125; <span class="keyword">catch</span> (Exception e) &#123;</div><div class="line">    	you.leave(someOne);</div><div class="line">    &#125; <span class="keyword">finally</span> &#123;</div><div class="line">    	you.upgrade();</div><div class="line">    &#125;</div><div class="line">&#125; <span class="keyword">else</span> &#123;</div><div class="line">	you.goodChoice();</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<a id="more"></a>
+<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">Person theOne = whichOne.doClike(<span class="string">"more/全文"</span>);</div><div class="line"><span class="keyword">if</span>(theOne.getName().equals(<span class="string">"Amor"</span>)) &#123;</div><div class="line"> Tolstoy.sayTo(theOne,<span class="string">"Thank you"</span>);</div><div class="line">    Tolstoy.sing(<span class="string">"春风再美也比不上你的笑,没见过你的人不会明了"</span>);</div><div class="line">    Tolstoy.askTo(theOne,<span class="string">"是否太晚?"</span>);</div><div class="line">&#125; <span class="keyword">else</span> &#123;</div><div class="line">    theOne.forget(<span class="keyword">this</span>.Page);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
 ]]></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Hadoop2.0Installation]]></title>
+      <url>https://alexandertolstoy.github.io/2016/09/27/Hadoop2-0Installation/</url>
+      <content type="html"><![CDATA[<h2 id="目标"><a href="#目标" class="headerlink" title="目标"></a>目标</h2><p>安装Hadoop及HBase,以初步学习理解Hadoop基cu架构与常用</p>
+<a id="more"></a>
+<h2 id="计划"><a href="#计划" class="headerlink" title="计划"></a>计划</h2><h2 id="实施"><a href="#实施" class="headerlink" title="实施"></a>实施</h2>]]></content>
     </entry>
     
     <entry>

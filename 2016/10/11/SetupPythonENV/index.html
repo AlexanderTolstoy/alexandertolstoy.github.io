@@ -15,16 +15,16 @@
 
 
 
-<meta name="description" content="1234567891011if(you.toChange(someOne)) &amp;#123;	try &amp;#123;    	you.love(someOne);    &amp;#125; catch (Exception e) &amp;#123;    	you.leave(someOne);    &amp;#125; finally &amp;#123;    	you.upgrade();    &amp;#125;&amp;#125;">
+<meta name="description" content="说明在linux中安装python3,并且配置python3开发环境">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
-<meta property="og:url" content="https://alexandertolstoy.github.io/2016/09/26/hello-world/index.html">
+<meta property="og:title" content="Install and configure the Python ENV on RHEL6.5">
+<meta property="og:url" content="https://alexandertolstoy.github.io/2016/10/11/SetupPythonENV/index.html">
 <meta property="og:site_name" content="On my own">
-<meta property="og:description" content="1234567891011if(you.toChange(someOne)) &amp;#123;	try &amp;#123;    	you.love(someOne);    &amp;#125; catch (Exception e) &amp;#123;    	you.leave(someOne);    &amp;#125; finally &amp;#123;    	you.upgrade();    &amp;#125;&amp;#125;">
-<meta property="og:updated_time" content="2016-09-28T16:00:11.738Z">
+<meta property="og:description" content="说明在linux中安装python3,并且配置python3开发环境">
+<meta property="og:updated_time" content="2016-10-11T00:11:13.912Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World">
-<meta name="twitter:description" content="1234567891011if(you.toChange(someOne)) &amp;#123;	try &amp;#123;    	you.love(someOne);    &amp;#125; catch (Exception e) &amp;#123;    	you.leave(someOne);    &amp;#125; finally &amp;#123;    	you.upgrade();    &amp;#125;&amp;#125;">
+<meta name="twitter:title" content="Install and configure the Python ENV on RHEL6.5">
+<meta name="twitter:description" content="说明在linux中安装python3,并且配置python3开发环境">
 
 <link rel="apple-touch-icon" href= "/apple-touch-icon.png">
 
@@ -56,7 +56,7 @@
 <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 
-<title>Hello World | On my own</title>
+<title>Install and configure the Python ENV on RHEL6.5 | On my own</title>
 
 <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
@@ -281,11 +281,11 @@
     </div>
     <link class="menu-list" tags="标签" friends="友情链接" about="关于我"/>
 </nav>
-      <div class="body-wrap"><article id="post-hello-world" class="article article-type-post" itemscope itemprop="blogPost">
+      <div class="body-wrap"><article id="post-SetupPythonENV" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2016/09/26/hello-world/" class="article-date">
-      <time datetime="2016-09-26T14:13:02.342Z" itemprop="datePublished">2016-09-26</time>
+      <a href="/2016/10/11/SetupPythonENV/" class="article-date">
+      <time datetime="2016-10-11T00:09:38.228Z" itemprop="datePublished">2016-10-11</time>
 </a>
 
 
@@ -300,7 +300,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Hello World
+      Install and configure the Python ENV on RHEL6.5
     </h1>
   
 
@@ -309,13 +309,13 @@
       <div class="article-info article-info-post">
         
     <div class="article-category tagcloud">
-    <a class="article-category-link" href="/categories/Programer/">Programer</a><a class="article-category-link" href="/categories/Programer/Live/">Live</a>
+    <a class="article-category-link" href="/categories/Language/">Language</a><a class="article-category-link" href="/categories/Language/OS/">OS</a>
     </div>
 
 
         
     <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Hello-World/">Hello World</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Init/">Init</a></li></ul>
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Eclipse/">Eclipse</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Installation/">Installation</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Python/">Python</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/RHEL/">RHEL</a></li></ul>
     </div>
 
         <div class="clearfix"></div>
@@ -325,10 +325,25 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div></pre></td><td class="code"><pre><div class="line"><span class="keyword">if</span>(you.toChange(someOne)) &#123;</div><div class="line">	<span class="keyword">try</span> &#123;</div><div class="line">    	you.love(someOne);</div><div class="line">    &#125; <span class="keyword">catch</span> (Exception e) &#123;</div><div class="line">    	you.leave(someOne);</div><div class="line">    &#125; <span class="keyword">finally</span> &#123;</div><div class="line">    	you.upgrade();</div><div class="line">    &#125;</div><div class="line">&#125; <span class="keyword">else</span> &#123;</div><div class="line">	you.goodChoice();</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+        <h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><p>在linux中安装python3,并且配置python3开发环境</p>
 <a id="more"></a>
-<figure class="highlight java"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line"></div><div class="line">Person theOne = whichOne.doClike(<span class="string">"more/全文"</span>);</div><div class="line"><span class="keyword">if</span>(theOne.getName().equals(<span class="string">"Amor"</span>)) &#123;</div><div class="line">	Tolstoy.sayTo(theOne,<span class="string">"Thank you"</span>);</div><div class="line">    Tolstoy.sing(<span class="string">"春风再美也比不上你的笑,没见过你的人不会明了"</span>);</div><div class="line">    Tolstoy.askTo(theOne,<span class="string">"是否太晚?"</span>);</div><div class="line">&#125; <span class="keyword">else</span> &#123;</div><div class="line">    theOne.forget(<span class="keyword">this</span>.Page);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
-
+<h2 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h2><ol>
+<li><a href="https://www.python.org/" target="_blank" rel="external">Python官方网站</a></li>
+<li><a href="https://docs.python.org/3/" target="_blank" rel="external">Python Documents 3.0</a></li>
+<li><a href="http://www.liaoxuefeng.com/wiki/0014316089557264a6b348958f449949df42a6d3a2e542c000" target="_blank" rel="external">廖雪峰Python 教程</a></li>
+<li><a href="http://www.tuicool.com/articles/j2ueiir" target="_blank" rel="external">Linux6.4 安装Python3.5,pip,setuptools</a></li>
+<li><a href="https://pypi.python.org/pypi/setuptools#unix-including-mac-os-x-curl" target="_blank" rel="external">setuptools 28 Installation</a></li>
+<li><a href="https://pypi.python.org/pypi/pip/8.1.2" target="_blank" rel="external">pip 8.1.2 Installation</a></li>
+</ol>
+<h2 id="安装包及下载链接"><a href="#安装包及下载链接" class="headerlink" title="安装包及下载链接"></a>安装包及下载链接</h2><ol>
+<li><a href="http://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/neon/R/eclipse-cpp-neon-R-linux-gtk-x86_64.tar.gz&amp;mirror_id=448" target="_blank" rel="external">eclipse IDE for C/C++ Developers(linux_x64)</a></li>
+<li><a href="https://www.python.org/ftp/python/3.5.2/Python-3.5.2.tgz" target="_blank" rel="external">python3.5.2_tgz</a></li>
+<li><a href="https://pypi.python.org/packages/f7/94/eee867605a99ac113c4108534ad7c292ed48bf1d06dfe7b63daa51e49987/setuptools-28.0.0.tar.gz#md5=9b23df90e1510c7353a5cf07873dcd22" target="_blank" rel="external">setuptools-28.0.0.tar.gz</a></li>
+<li><a href="https://www.python.org/downloads/source/" target="_blank" rel="external">Python Source Download</a></li>
+<li><a href="https://pypi.python.org/packages/e7/a8/7556133689add8d1a54c0b14aeff0acb03c64707ce100ecd53934da1aa13/pip-8.1.2.tar.gz#md5=87083c0b9867963b29f7aba3613e8f4a" target="_blank" rel="external">pip-8.1.2.tar.gz</a></li>
+<li></li>
+</ol>
+<h2 id="安装与配置"><a href="#安装与配置" class="headerlink" title="安装与配置"></a>安装与配置</h2><h3 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h3><h3 id="安装日志"><a href="#安装日志" class="headerlink" title="安装日志"></a>安装日志</h3>
       
     </div>
     
@@ -336,13 +351,13 @@
   
     
     <div class="copyright">
-        <p><span>本文标题:</span><a href="/2016/09/26/hello-world/">Hello World</a></p>
+        <p><span>本文标题:</span><a href="/2016/10/11/SetupPythonENV/">Install and configure the Python ENV on RHEL6.5</a></p>
         <p><span>文章作者:</span><a href="/" title="回到主页">屈子虚</a></p>
-        <p><span>发布时间:</span>2016-09-26, 22:13:02</p>
-        <p><span>最后更新:</span>2016-09-29, 00:00:11</p>
+        <p><span>发布时间:</span>2016-10-11, 08:09:38</p>
+        <p><span>最后更新:</span>2016-10-11, 08:11:13</p>
         <p>
-            <span>原始链接:</span><a class="post-url" href="/2016/09/26/hello-world/" title="Hello World">https://alexandertolstoy.github.io/2016/09/26/hello-world/</a>
-            <span class="copy-path" data-clipboard-text="原文: https://alexandertolstoy.github.io/2016/09/26/hello-world/　　作者: 屈子虚" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <span>原始链接:</span><a class="post-url" href="/2016/10/11/SetupPythonENV/" title="Install and configure the Python ENV on RHEL6.5">https://alexandertolstoy.github.io/2016/10/11/SetupPythonENV/</a>
+            <span class="copy-path" data-clipboard-text="原文: https://alexandertolstoy.github.io/2016/10/11/SetupPythonENV/　　作者: 屈子虚" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
             <script> var clipboard = new Clipboard('.copy-path'); </script>
         </p>
         <p>
@@ -355,15 +370,15 @@
     <nav id="article-nav">
         
             <div id="article-nav-newer" class="article-nav-title">
-                <a href="/2016/09/26/地址储存与解析/">
+                <a href="/2016/10/11/地址储存与解析/">
                     地址储存与解析
                 </a>
             </div>
         
         
             <div id="article-nav-older" class="article-nav-title">
-                <a href="/2016/09/26/TODO/">
-                    TODO
+                <a href="/2016/10/11/hello-world/">
+                    Hello World
                 </a>
             </div>
         
@@ -375,7 +390,7 @@
     <div id="toc" class="toc-article">
         <strong class="toc-title">文章目录</strong>
         
-            
+            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#说明"><span class="toc-number">1.</span> <span class="toc-text">说明</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#参考文献"><span class="toc-number">2.</span> <span class="toc-text">参考文献</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装包及下载链接"><span class="toc-number">3.</span> <span class="toc-text">安装包及下载链接</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#安装与配置"><span class="toc-number">4.</span> <span class="toc-text">安装与配置</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#流程"><span class="toc-number">4.1.</span> <span class="toc-text">流程</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#安装日志"><span class="toc-number">4.2.</span> <span class="toc-text">安装日志</span></a></li></ol></li></ol>
         
     </div>
     <style>
@@ -411,7 +426,7 @@
         </div>
         <script>
             window._bd_share_config={
-                "common":{"bdSnsKey":{},"bdText":"Hello World　| On my own　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+                "common":{"bdSnsKey":{},"bdText":"Install and configure the Python ENV on RHEL6.5　| On my own　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
         </script>
     
 
@@ -430,8 +445,8 @@
     <div id="disqus_thread"></div>
     <script>
         var disqus_config = function(){
-            this.page.url = 'https://alexandertolstoy.github.io/2016/09/26/hello-world/';
-            this.page.identifier = '2016/09/26/hello-world/';
+            this.page.url = 'https://alexandertolstoy.github.io/2016/10/11/SetupPythonENV/';
+            this.page.identifier = '2016/10/11/SetupPythonENV/';
         };
         var loadComment = function(){
             var d = document, s = d.createElement('script');
@@ -453,7 +468,7 @@
 
     <div class="scroll" id="post-nav-button">
         
-            <a href="/2016/09/26/地址储存与解析/" title="上一篇: 地址储存与解析">
+            <a href="/2016/10/11/地址储存与解析/" title="上一篇: 地址储存与解析">
                 <i class="fa fa-angle-left"></i>
             </a>
         
@@ -461,13 +476,13 @@
         <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
 
         
-            <a href="/2016/09/26/TODO/" title="下一篇: TODO">
+            <a href="/2016/10/11/hello-world/" title="下一篇: Hello World">
                 <i class="fa fa-angle-right"></i>
             </a>
         
     </div>
 
-    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/09/28/SetupPythonENV/">Install and configure the Python ENV on RHEL6.5</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/09/27/Hadoop2-0Installation/">Hadoop2.0Installation</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/09/26/地址储存与解析/">地址储存与解析</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/09/26/hello-world/">Hello World</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/09/26/TODO/">TODO</a></li></ul>
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2016/10/11/地址储存与解析/">地址储存与解析</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/10/11/SetupPythonENV/">Install and configure the Python ENV on RHEL6.5</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/10/11/hello-world/">Hello World</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/09/27/Hadoop2-0Installation/">Hadoop2.0Installation</a></li><li class="post-list-item"><a class="post-list-link" href="/2016/09/26/TODO/">TODO</a></li></ul>
 
 
 
