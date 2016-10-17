@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://alexandertolstoy.github.io/2016/10/18/UnderCover_basic_principal_concept/</loc>
-    <lastmod>2016-10-17T18:47:49.786Z</lastmod>
+    <lastmod>2016-10-17T18:52:44.921Z</lastmod>
     <data>
         <display>
         <title>阴暗一面 _理论上讲</title>
@@ -82,6 +82,35 @@
 
     
   <url>
+    <loc>https://alexandertolstoy.github.io/2016/10/11/SetupPythonENV/</loc>
+    <lastmod>2016-10-11T00:11:13.912Z</lastmod>
+    <data>
+        <display>
+        <title>Install and configure the Python ENV on RHEL6.5</title>
+        <pubTime>2016-10-11T00:09:38.228Z</pubTime>
+        
+        <tag>Python</tag>
+         
+        <tag>Eclipse</tag>
+         
+        <tag>RHEL</tag>
+         
+        <tag>Installation</tag>
+         
+         
+           
+             
+              <breadCrumb title="Language" url="https://alexandertolstoy.github.io/categories/Language/"/>
+          
+             
+              <breadCrumb title="OS" url="https://alexandertolstoy.github.io/categories/Language/OS/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://alexandertolstoy.github.io/2016/09/27/Hadoop2-0Installation/</loc>
     <lastmod>2016-10-11T00:11:13.912Z</lastmod>
     <data>
@@ -101,35 +130,6 @@
            
              
               <breadCrumb title="BigData" url="https://alexandertolstoy.github.io/categories/BigData/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://alexandertolstoy.github.io/2016/10/11/SetupPythonENV/</loc>
-    <lastmod>2016-10-11T00:11:13.912Z</lastmod>
-    <data>
-        <display>
-        <title>Install and configure the Python ENV on RHEL6.5</title>
-        <pubTime>2016-10-11T00:09:38.228Z</pubTime>
-        
-        <tag>Installation</tag>
-         
-        <tag>Python</tag>
-         
-        <tag>Eclipse</tag>
-         
-        <tag>RHEL</tag>
-         
-         
-           
-             
-              <breadCrumb title="Language" url="https://alexandertolstoy.github.io/categories/Language/"/>
-          
-             
-              <breadCrumb title="OS" url="https://alexandertolstoy.github.io/categories/Language/OS/"/>
           
         </display>
     </data>
