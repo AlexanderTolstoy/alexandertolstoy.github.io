@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://alexandertolstoy.github.io/2016/10/18/UnderCover_basic_principal_concept/</loc>
-    <lastmod>2016-10-17T18:41:37.137Z</lastmod>
+    <lastmod>2016-10-17T18:45:08.247Z</lastmod>
     <data>
         <display>
         <title>阴暗一面 _理论上讲</title>
@@ -82,61 +82,6 @@
 
     
   <url>
-    <loc>https://alexandertolstoy.github.io/2016/09/26/TODO/</loc>
-    <lastmod>2016-10-11T00:11:13.912Z</lastmod>
-    <data>
-        <display>
-        <title>TODO</title>
-        <pubTime>2016-09-26T08:22:02.000Z</pubTime>
-        
-        <tag>TEMP</tag>
-         
-        <tag>NOTE</tag>
-         
-        <tag>Memorandum</tag>
-         
-        <tag>躬行</tag>
-         
-         
-           
-             
-              <breadCrumb title="一时兴起" url="https://alexandertolstoy.github.io/categories/%E4%B8%80%E6%97%B6%E5%85%B4%E8%B5%B7/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://alexandertolstoy.github.io/2016/10/11/SetupPythonENV/</loc>
-    <lastmod>2016-10-11T00:11:13.912Z</lastmod>
-    <data>
-        <display>
-        <title>Install and configure the Python ENV on RHEL6.5</title>
-        <pubTime>2016-10-11T00:09:38.228Z</pubTime>
-        
-        <tag>Python</tag>
-         
-        <tag>Eclipse</tag>
-         
-        <tag>RHEL</tag>
-         
-        <tag>Installation</tag>
-         
-         
-           
-             
-              <breadCrumb title="Language" url="https://alexandertolstoy.github.io/categories/Language/"/>
-          
-             
-              <breadCrumb title="OS" url="https://alexandertolstoy.github.io/categories/Language/OS/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://alexandertolstoy.github.io/2016/09/27/Hadoop2-0Installation/</loc>
     <lastmod>2016-10-11T00:11:13.912Z</lastmod>
     <data>
@@ -156,6 +101,61 @@
            
              
               <breadCrumb title="BigData" url="https://alexandertolstoy.github.io/categories/BigData/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://alexandertolstoy.github.io/2016/10/11/SetupPythonENV/</loc>
+    <lastmod>2016-10-11T00:11:13.912Z</lastmod>
+    <data>
+        <display>
+        <title>Install and configure the Python ENV on RHEL6.5</title>
+        <pubTime>2016-10-11T00:09:38.228Z</pubTime>
+        
+        <tag>Installation</tag>
+         
+        <tag>Python</tag>
+         
+        <tag>Eclipse</tag>
+         
+        <tag>RHEL</tag>
+         
+         
+           
+             
+              <breadCrumb title="Language" url="https://alexandertolstoy.github.io/categories/Language/"/>
+          
+             
+              <breadCrumb title="OS" url="https://alexandertolstoy.github.io/categories/Language/OS/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://alexandertolstoy.github.io/2016/09/26/TODO/</loc>
+    <lastmod>2016-10-11T00:11:13.912Z</lastmod>
+    <data>
+        <display>
+        <title>TODO</title>
+        <pubTime>2016-09-26T08:22:02.000Z</pubTime>
+        
+        <tag>TEMP</tag>
+         
+        <tag>NOTE</tag>
+         
+        <tag>Memorandum</tag>
+         
+        <tag>躬行</tag>
+         
+         
+           
+             
+              <breadCrumb title="一时兴起" url="https://alexandertolstoy.github.io/categories/%E4%B8%80%E6%97%B6%E5%85%B4%E8%B5%B7/"/>
           
         </display>
     </data>

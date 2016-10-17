@@ -2,28 +2,28 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
     <url>
-        <loc>https://alexandertolstoy.github.io/tags/TEMP/</loc>
+        <loc>https://alexandertolstoy.github.io/tags/Installation/</loc>
         <lastmod>2016-10-11T00:11:13.912Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://alexandertolstoy.github.io/tags/NOTE/</loc>
+        <loc>https://alexandertolstoy.github.io/tags/Hadoop/</loc>
         <lastmod>2016-10-11T00:11:13.912Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://alexandertolstoy.github.io/tags/Memorandum/</loc>
+        <loc>https://alexandertolstoy.github.io/tags/HBase/</loc>
         <lastmod>2016-10-11T00:11:13.912Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://alexandertolstoy.github.io/tags/%E8%BA%AC%E8%A1%8C/</loc>
+        <loc>https://alexandertolstoy.github.io/tags/ZooKeeper/</loc>
         <lastmod>2016-10-11T00:11:13.912Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -51,28 +51,28 @@
     </url>
 
     <url>
-        <loc>https://alexandertolstoy.github.io/tags/Installation/</loc>
+        <loc>https://alexandertolstoy.github.io/tags/TEMP/</loc>
         <lastmod>2016-10-11T00:11:13.912Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://alexandertolstoy.github.io/tags/Hadoop/</loc>
+        <loc>https://alexandertolstoy.github.io/tags/NOTE/</loc>
         <lastmod>2016-10-11T00:11:13.912Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://alexandertolstoy.github.io/tags/HBase/</loc>
+        <loc>https://alexandertolstoy.github.io/tags/Memorandum/</loc>
         <lastmod>2016-10-11T00:11:13.912Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
-        <loc>https://alexandertolstoy.github.io/tags/ZooKeeper/</loc>
+        <loc>https://alexandertolstoy.github.io/tags/%E8%BA%AC%E8%A1%8C/</loc>
         <lastmod>2016-10-11T00:11:13.912Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
@@ -108,35 +108,35 @@
 
     <url>
         <loc>https://alexandertolstoy.github.io/tags/%E7%BB%9F%E8%AE%A1/</loc>
-        <lastmod>2016-10-17T18:41:37.137Z</lastmod>
+        <lastmod>2016-10-17T18:45:08.247Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://alexandertolstoy.github.io/tags/%E9%97%AE%E7%AD%94/</loc>
-        <lastmod>2016-10-17T18:41:37.137Z</lastmod>
+        <lastmod>2016-10-17T18:45:08.247Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://alexandertolstoy.github.io/tags/%E8%B0%83%E6%9F%A5/</loc>
-        <lastmod>2016-10-17T18:41:37.137Z</lastmod>
+        <lastmod>2016-10-17T18:45:08.247Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://alexandertolstoy.github.io/tags/%E5%BC%80%E6%BA%90/</loc>
-        <lastmod>2016-10-17T18:41:37.137Z</lastmod>
+        <lastmod>2016-10-17T18:45:08.247Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
 
     <url>
         <loc>https://alexandertolstoy.github.io/tags/%E9%9A%90%E7%A7%81/</loc>
-        <lastmod>2016-10-17T18:41:37.137Z</lastmod>
+        <lastmod>2016-10-17T18:45:08.247Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.2</priority>
     </url>
