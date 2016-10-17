@@ -4,6 +4,34 @@
 
     
   <url>
+    <loc>https://alexandertolstoy.github.io/2016/10/18/UnderCover_basic_principal_concept/</loc>
+    <lastmod>2016-10-17T18:41:37.137Z</lastmod>
+    <data>
+        <display>
+        <title>阴暗一面 _理论上讲</title>
+        <pubTime>2016-10-17T18:42:29.591Z</pubTime>
+        
+        <tag>统计</tag>
+         
+        <tag>问答</tag>
+         
+        <tag>调查</tag>
+         
+        <tag>开源</tag>
+         
+        <tag>隐私</tag>
+         
+         
+           
+             
+              <breadCrumb title="胡言乱语" url="https://alexandertolstoy.github.io/categories/%E8%83%A1%E8%A8%80%E4%B9%B1%E8%AF%AD/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://alexandertolstoy.github.io/2016/10/11/%E5%9C%B0%E5%9D%80%E5%82%A8%E5%AD%98%E4%B8%8E%E8%A7%A3%E6%9E%90/</loc>
     <lastmod>2016-10-12T12:33:01.431Z</lastmod>
     <data>
@@ -54,61 +82,6 @@
 
     
   <url>
-    <loc>https://alexandertolstoy.github.io/2016/09/27/Hadoop2-0Installation/</loc>
-    <lastmod>2016-10-11T00:11:13.912Z</lastmod>
-    <data>
-        <display>
-        <title>Hadoop2.0Installation</title>
-        <pubTime>2016-09-26T23:57:56.000Z</pubTime>
-        
-        <tag>Installation</tag>
-         
-        <tag>Hadoop</tag>
-         
-        <tag>HBase</tag>
-         
-        <tag>ZooKeeper</tag>
-         
-         
-           
-             
-              <breadCrumb title="BigData" url="https://alexandertolstoy.github.io/categories/BigData/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
-    <loc>https://alexandertolstoy.github.io/2016/10/11/SetupPythonENV/</loc>
-    <lastmod>2016-10-11T00:11:13.912Z</lastmod>
-    <data>
-        <display>
-        <title>Install and configure the Python ENV on RHEL6.5</title>
-        <pubTime>2016-10-11T00:09:38.228Z</pubTime>
-        
-        <tag>Installation</tag>
-         
-        <tag>Python</tag>
-         
-        <tag>Eclipse</tag>
-         
-        <tag>RHEL</tag>
-         
-         
-           
-             
-              <breadCrumb title="Language" url="https://alexandertolstoy.github.io/categories/Language/"/>
-          
-             
-              <breadCrumb title="OS" url="https://alexandertolstoy.github.io/categories/Language/OS/"/>
-          
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>https://alexandertolstoy.github.io/2016/09/26/TODO/</loc>
     <lastmod>2016-10-11T00:11:13.912Z</lastmod>
     <data>
@@ -128,6 +101,61 @@
            
              
               <breadCrumb title="一时兴起" url="https://alexandertolstoy.github.io/categories/%E4%B8%80%E6%97%B6%E5%85%B4%E8%B5%B7/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://alexandertolstoy.github.io/2016/10/11/SetupPythonENV/</loc>
+    <lastmod>2016-10-11T00:11:13.912Z</lastmod>
+    <data>
+        <display>
+        <title>Install and configure the Python ENV on RHEL6.5</title>
+        <pubTime>2016-10-11T00:09:38.228Z</pubTime>
+        
+        <tag>Python</tag>
+         
+        <tag>Eclipse</tag>
+         
+        <tag>RHEL</tag>
+         
+        <tag>Installation</tag>
+         
+         
+           
+             
+              <breadCrumb title="Language" url="https://alexandertolstoy.github.io/categories/Language/"/>
+          
+             
+              <breadCrumb title="OS" url="https://alexandertolstoy.github.io/categories/Language/OS/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>https://alexandertolstoy.github.io/2016/09/27/Hadoop2-0Installation/</loc>
+    <lastmod>2016-10-11T00:11:13.912Z</lastmod>
+    <data>
+        <display>
+        <title>Hadoop2.0Installation</title>
+        <pubTime>2016-09-26T23:57:56.000Z</pubTime>
+        
+        <tag>Installation</tag>
+         
+        <tag>Hadoop</tag>
+         
+        <tag>HBase</tag>
+         
+        <tag>ZooKeeper</tag>
+         
+         
+           
+             
+              <breadCrumb title="BigData" url="https://alexandertolstoy.github.io/categories/BigData/"/>
           
         </display>
     </data>

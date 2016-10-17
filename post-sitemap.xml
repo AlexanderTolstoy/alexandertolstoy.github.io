@@ -7,6 +7,14 @@
     </url>
 
     <url>
+        <loc>https://alexandertolstoy.github.io/2016/10/18/UnderCover_basic_principal_concept/</loc>
+        <lastmod>2016-10-17T18:41:37.137Z</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.6</priority>
+
+    </url>
+
+    <url>
         <loc>https://alexandertolstoy.github.io/2016/10/11/%E5%9C%B0%E5%9D%80%E5%82%A8%E5%AD%98%E4%B8%8E%E8%A7%A3%E6%9E%90/</loc>
         <lastmod>2016-10-12T12:33:01.431Z</lastmod>
         <changefreq>weekly</changefreq>
@@ -23,7 +31,7 @@
     </url>
 
     <url>
-        <loc>https://alexandertolstoy.github.io/2016/09/27/Hadoop2-0Installation/</loc>
+        <loc>https://alexandertolstoy.github.io/2016/09/26/TODO/</loc>
         <lastmod>2016-10-11T00:11:13.912Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
@@ -39,7 +47,7 @@
     </url>
 
     <url>
-        <loc>https://alexandertolstoy.github.io/2016/09/26/TODO/</loc>
+        <loc>https://alexandertolstoy.github.io/2016/09/27/Hadoop2-0Installation/</loc>
         <lastmod>2016-10-11T00:11:13.912Z</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.6</priority>
