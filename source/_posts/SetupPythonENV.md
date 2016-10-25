@@ -34,8 +34,31 @@ tags:
 6. 
 
 ## 安装与配置 ##
+### 下载安装包 ###
+```bash
+cd /download
+wget https://www.python.org/ftp/python/3.5.2/Python-3.5.2.tgz
+wget https://pypi.python.org/packages/f7/94/eee867605a99ac113c4108534ad7c292ed48bf1d06dfe7b63daa51e49987/setuptools-28.0.0.tar.gz#md5=9b23df90e1510c7353a5cf07873dcd22
+wget https://pypi.python.org/packages/e7/a8/7556133689add8d1a54c0b14aeff0acb03c64707ce100ecd53934da1aa13/pip-8.1.2.tar.gz#md5=87083c0b9867963b29f7aba3613e8f4a
+```
+### prerequire ###
+> yum -y groupinstall "Development Tools"
+> yum -y install zlib-devel bzip2-devel openssl-devel ncurses-devel sqlite-devel
+ 
+### 安装python3.5 ###
+> cd /download/Python-3.5.2
+> ./configure --prefix=/usr
+> make & make install
 
-### 流程 ###
 
-### 安装日志 ###
+### 安装pip以及setuptools ###  
+> cd setuptools-28.0.0
+> python3 setup.py build
+> python3 setup.py install
+> cd pip-8.1.2
+> python3 setup.py build
+> python3 setup.py install
+> 
+4.配置eclipse
+5.测试简单的py程序，在eclipse中，以及在terminal中
 
