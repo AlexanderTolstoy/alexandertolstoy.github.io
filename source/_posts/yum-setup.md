@@ -1,10 +1,17 @@
 ---
+
 title: yum setup 
+
 categories: 
+
 - OS 
+
 tags: 
+
 - yum
 - linux  
+- EPEL
+
 ---
 
 ## 各种linux下面的yum设置 ##
@@ -31,3 +38,21 @@ CentOS 7
 > yum makecache
 
 <!-- more -->
+
+### 安装EPEL ###
+
+关于EPEL
+
+[EPEL Wiki](https://fedoraproject.org/wiki/EPEL)
+
+利用yu安装EPEL 资源库
+
+> yum -y install epel-release.noarch
+
+配置阿里云 EPEL资源库
+
+> mv /etc/yum.repos.d/epel.repo /etc/yum.repos.d/epel.repo.backup 
+> wget -O /etc/yum.repos.d/epel.repo http://mirrors.aliyun.com/repo/epel-6.repo
+> yum clean all && yum update && yum makecache
+
+

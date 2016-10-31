@@ -58,7 +58,12 @@ wget https://pypi.python.org/packages/e7/a8/7556133689add8d1a54c0b14aeff0acb03c6
 > cd pip-8.1.2
 > python3 setup.py build
 > python3 setup.py install
-> 
-4.配置eclipse
-5.测试简单的py程序，在eclipse中，以及在terminal中
+### 配置eclipse ###
+1.安装pydev （Python development tools ） 
+2.设置Python3 环境变量  
+* 针对eclipse 设置专门的python环境，因为系统默认python为python2，不能改，很多系统类库的程序都是基于python2的 *  
+```bash
+export PYTHONHOME=/usr/lib/python3.5 
+export PYTHONPATH=.:$PYTHONHOME  
 
+```
