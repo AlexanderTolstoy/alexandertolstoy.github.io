@@ -1,0 +1,53 @@
+CRS-2791: Starting shutdown of Oracle High Availability Services-managed resources on 'rkkdbserdw02'
+CRS-2673: Attempting to stop 'ora.crsd' on 'rkkdbserdw02'
+CRS-2790: Starting shutdown of Cluster Ready Services-managed resources on 'rkkdbserdw02'
+CRS-2673: Attempting to stop 'ora.cvu' on 'rkkdbserdw02'
+CRS-2673: Attempting to stop 'ora.oc4j' on 'rkkdbserdw02'
+CRS-2673: Attempting to stop 'ora.LISTENER_SCAN1.lsnr' on 'rkkdbserdw02'
+CRS-2673: Attempting to stop 'ora.OCRDISK.dg' on 'rkkdbserdw02'
+CRS-2673: Attempting to stop 'ora.ARCHDG.dg' on 'rkkdbserdw02'
+CRS-2673: Attempting to stop 'ora.DATA_FASTDG01.dg' on 'rkkdbserdw02'
+CRS-2673: Attempting to stop 'ora.DATA_SLOWDG01.dg' on 'rkkdbserdw02'
+CRS-2677: Stop of 'ora.cvu' on 'rkkdbserdw02' succeeded
+CRS-2672: Attempting to start 'ora.cvu' on 'rkkdbserdw01'
+CRS-2676: Start of 'ora.cvu' on 'rkkdbserdw01' succeeded
+CRS-2677: Stop of 'ora.DATA_SLOWDG01.dg' on 'rkkdbserdw02' succeeded
+CRS-2677: Stop of 'ora.DATA_FASTDG01.dg' on 'rkkdbserdw02' succeeded
+CRS-2677: Stop of 'ora.ARCHDG.dg' on 'rkkdbserdw02' succeeded
+CRS-2677: Stop of 'ora.LISTENER_SCAN1.lsnr' on 'rkkdbserdw02' succeeded
+CRS-2673: Attempting to stop 'ora.scan1.vip' on 'rkkdbserdw02'
+CRS-2677: Stop of 'ora.scan1.vip' on 'rkkdbserdw02' succeeded
+CRS-2672: Attempting to start 'ora.scan1.vip' on 'rkkdbserdw01'
+CRS-2676: Start of 'ora.scan1.vip' on 'rkkdbserdw01' succeeded
+CRS-2672: Attempting to start 'ora.LISTENER_SCAN1.lsnr' on 'rkkdbserdw01'
+CRS-2676: Start of 'ora.LISTENER_SCAN1.lsnr' on 'rkkdbserdw01' succeeded
+CRS-2677: Stop of 'ora.oc4j' on 'rkkdbserdw02' succeeded
+CRS-2672: Attempting to start 'ora.oc4j' on 'rkkdbserdw01'
+CRS-2676: Start of 'ora.oc4j' on 'rkkdbserdw01' succeeded
+CRS-2677: Stop of 'ora.OCRDISK.dg' on 'rkkdbserdw02' succeeded
+CRS-2673: Attempting to stop 'ora.asm' on 'rkkdbserdw02'
+CRS-2677: Stop of 'ora.asm' on 'rkkdbserdw02' succeeded
+CRS-2673: Attempting to stop 'ora.net1.network' on 'rkkdbserdw02'
+CRS-2677: Stop of 'ora.net1.network' on 'rkkdbserdw02' succeeded
+CRS-2792: Shutdown of Cluster Ready Services-managed resources on 'rkkdbserdw02' has completed
+CRS-2677: Stop of 'ora.crsd' on 'rkkdbserdw02' succeeded
+CRS-2673: Attempting to stop 'ora.crf' on 'rkkdbserdw02'
+CRS-2673: Attempting to stop 'ora.ctssd' on 'rkkdbserdw02'
+CRS-2673: Attempting to stop 'ora.evmd' on 'rkkdbserdw02'
+CRS-2673: Attempting to stop 'ora.asm' on 'rkkdbserdw02'
+CRS-2673: Attempting to stop 'ora.mdnsd' on 'rkkdbserdw02'
+CRS-2677: Stop of 'ora.crf' on 'rkkdbserdw02' succeeded
+CRS-2677: Stop of 'ora.mdnsd' on 'rkkdbserdw02' succeeded
+CRS-2677: Stop of 'ora.evmd' on 'rkkdbserdw02' succeeded
+CRS-2677: Stop of 'ora.asm' on 'rkkdbserdw02' succeeded
+CRS-2673: Attempting to stop 'ora.cluster_interconnect.haip' on 'rkkdbserdw02'
+CRS-2677: Stop of 'ora.ctssd' on 'rkkdbserdw02' succeeded
+CRS-2677: Stop of 'ora.cluster_interconnect.haip' on 'rkkdbserdw02' succeeded
+CRS-2673: Attempting to stop 'ora.cssd' on 'rkkdbserdw02'
+CRS-2677: Stop of 'ora.cssd' on 'rkkdbserdw02' succeeded
+CRS-2673: Attempting to stop 'ora.gipcd' on 'rkkdbserdw02'
+CRS-2677: Stop of 'ora.gipcd' on 'rkkdbserdw02' succeeded
+CRS-2673: Attempting to stop 'ora.gpnpd' on 'rkkdbserdw02'
+CRS-2677: Stop of 'ora.gpnpd' on 'rkkdbserdw02' succeeded
+CRS-2793: Shutdown of Oracle High Availability Services-managed resources on 'rkkdbserdw02' has completed
+CRS-4133: Oracle High Availability Services has been stopped.
